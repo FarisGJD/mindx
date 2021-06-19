@@ -8,22 +8,47 @@
 
 body {
     font-family: Open Sans Condensed, sans-serif; 
-    font-weight: 300; 
-    color: #ffffff; 
-    background-color: #25a8e5; 
+    font-weight: 300;
+    background-color: #ccc4cb;    
 }
 
-header {
-    display: flex;
-    padding: 20px 200px;
-    justify-content: space-between;
-    align-items: center;
+/* Hero Image */
+
+#hero-image {
+    background: url(/assets/images/hero-image.jpg) center;
+    background-size: cover;
+    width: 100%; 
+    min-height: 100vh; 
+    position: relative; 
 }
+
+/* logo */ 
 
 #logo {
     font-family: Roboto, sans; 
     font-size: 3rem;
 }
 
-#navbar {
+/* Navigation Bar */ 
+
+header {
+    display: flex;
+    padding: 20px 20px; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+
+#navbar li {
+    list-style-type: none;
+    display: inline-block; 
+    font-size: 1.5rem; 
+    padding: 5px;
+    text-transform: uppercase;
 }
