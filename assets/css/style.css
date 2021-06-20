@@ -10,6 +10,7 @@ body {
     font-family: Open Sans Condensed, sans-serif; 
     font-weight: 300; 
     color: #ffffff;
+    background-color: #f2c1af;
 }
 
 /* Hero Image */
@@ -22,8 +23,6 @@ body {
     position: relative;  
 }
 
-
-
 /* logo */ 
 
 #logo {
@@ -34,10 +33,10 @@ body {
 
 #logo-x  {
     font-size: 10rem;  
-    text-shadow: #FBFFFF 2px 5px;   
+    text-shadow: #f7756f 2px 5px;   
 }
 
-/* Navigation Bar */ 
+/* Navigation Bar & Effect */ 
 
 header {
     display: flex;
@@ -58,15 +57,17 @@ header a {
     margin: 5px; 
     padding-top: 60px; 
     text-transform: uppercase;
-    font-family: Oswald; 
+    font-family: Oswald, sans-serif; 
 }
 
 .nav-hov:hover {
-    border-bottom: 3px solid #FBFFFF; 
+    border-bottom: 3px solid  #f7756f;
 }
 
+/* Sign Up Button & Effect*/ 
+
 #signup-call {
-    background-color: transparent;
+    background-color: #f7756f;
     color: #ffffff; 
     text-transform: uppercase; 
     border-radius: 5px; 
@@ -75,11 +76,12 @@ header a {
     font-family: Oswald; 
     cursor: pointer; 
     border: 3px solid #FBFFFF; 
-    box-shadow: #FBFFFF 2px 5px; 
+    box-shadow: #f7756f 2px 5px; 
 }
 
 #signup-call:hover {
-    background-color: #f7756f; 
+    background-color: #FBFFFF; 
+    color: #f1c2b0;
 }
     
 /* Ethos */ 
@@ -88,12 +90,34 @@ header a {
     position: absolute; 
     font-size: 3.4rem; 
     text-transform: uppercase; 
-    top: 80%; 
-    left: 1%; 
+    top: 75%;  
     text-shadow: #FBFFFF 2px 5px; 
-    font-family: Raleway; 
+    font-family: Raleway;
 }
 
+.material-icons {
+    font-size: 75px;
+    text-shadow: #f7756f 2px 5px;
+}
+
+#meditation {
+    position: relative;   
+}
+
+#meditation h2 {
+    font-size: 10rem; 
+    font-family: Raleway, sans-serif; 
+    position: absolute;
+    top: -100px; 
+    padding: 0 150px; 
+    text-shadow: #FBFFFF 2px 5px;
+}
+
+#meditation p {
+    position: absolute; 
+    top: 80px; 
+    padding: 0 150px; 
+}
 
 p {
     width: 900px; 
