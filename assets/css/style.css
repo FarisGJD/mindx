@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&family=Raleway:wght@900&display=swap');
 
 * {
     margin: 0; 
@@ -15,25 +15,26 @@ body {
 /* Hero Image */
 
 #hero-image {
-    background: url(/assets/images/hero-imageS.jpg) center;
+    background: url(/assets/images/hero-imageS.jpg) center center no-repeat;
     width: 100%; 
     min-height: 100vh;
     background-size: cover; 
     position: relative;  
 }
 
+
+
 /* logo */ 
 
 #logo {
-    font-family: Open Sans Condensed, sans; 
+    font-family: Raleway, sans-serif; 
     font-size: 7rem;
-    
+    text-shadow: #FBFFFF 2px 5px;    
 }
 
 #logo-x  {
     font-size: 10rem;  
-    text-shadow: #558abb 2px 5px;
-    
+    text-shadow: #FBFFFF 2px 5px;   
 }
 
 /* Navigation Bar */ 
@@ -42,7 +43,7 @@ header {
     display: flex;
     padding: 0px 150px; 
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 header a {
@@ -54,38 +55,47 @@ header a {
     list-style-type: none;
     display: inline-block; 
     font-size: 1.5rem; 
-    padding: 5px;
+    margin: 5px; 
+    padding-top: 60px; 
     text-transform: uppercase;
+    font-family: Oswald; 
 }
 
 .nav-hov:hover {
-    border-bottom: 3px solid #558abb; 
+    border-bottom: 3px solid #FBFFFF; 
 }
 
 #signup-call {
-    background-color: #558abb; 
+    background-color: transparent;
     color: #ffffff; 
-    text-transform: uppercase;
-    padding: 10px 30px; 
-    font-size: 1.2rem;
-    font-family: Open Sans Condensed; 
-    border-radius: 50px;
+    text-transform: uppercase; 
+    border-radius: 5px; 
+    font-size: 1.2rem;  
+    padding: 10px 10px;
+    font-family: Oswald; 
     cursor: pointer; 
+    border: 3px solid #FBFFFF; 
+    box-shadow: #FBFFFF 2px 5px; 
 }
 
 #signup-call:hover {
-    box-shadow: 0 5px 50px 0 #1F51FF inset, 0 5px 50px 0 #1F51FF; 
+    background-color: #f7756f; 
 }
-
+    
 /* Ethos */ 
 
 #ethos {
     position: absolute; 
-    font-size: 3.7rem; 
+    font-size: 3.4rem; 
     text-transform: uppercase; 
-    top: 70%; 
-    left: 17%; 
+    top: 80%; 
+    left: 1%; 
+    text-shadow: #FBFFFF 2px 5px; 
+    font-family: Raleway; 
 }
-#ethos-em {
-    text-shadow: #558abb 2px 5px;
+
+
+p {
+    width: 900px; 
+    height: 900px; 
 }
