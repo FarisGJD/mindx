@@ -97,7 +97,7 @@ header a {
     position: absolute; 
     font-size: 5.44rem; 
     text-transform: uppercase; 
-    top: 75%;   
+    top: 70%;   
     text-shadow: #FBFFFF 2px 5px; 
     font-family: Raleway;
 }
@@ -105,9 +105,4 @@ header a {
 .material-icons {
     font-size: 82px;
     text-shadow: #f7756f 10px 5px;
-}
-
-p {
-    width: 900px; 
-    height: 900px; 
 }
