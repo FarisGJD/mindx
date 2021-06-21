@@ -36,12 +36,33 @@
         </nav>
     </header>
 
-    <form>
-        <p>Signup Form</p> 
+    <!-- Sign Up Form -->
+    <form method="POST" action=>
+        <h2>Open Your Mind Eye & Sign Up!</h2>
+        <label for="fname">First Name:</label>
+        <input id="fname" name="first_name"  type="text" placeholder="Forename" required>
+
+        <label for="lname">Last Name:</label>
+        <input id="lname" name="last_name" type="text" placeholder="Surname" required>
+
+        <label for="email">Email Address:</label>
+        <input id="email" name="email_address" type="email" placeholder="Email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input id="phone" name="mobile_number" type="tel" placeholder="Number">
+        
+        <br>
+        <label for="reasons">Reasons For Joining:</label>
+        <textarea id="reasons" cols="50" rows="10" name="reasons" placeholder="Main Concern"></textarea>
+
+        <br>
+
+        <input type="submit" value="Open Minds Eye">
+
     </form>
 
     <footer>
-        Social Media Links & Contact Info
+
     </footer>
 </body>
 </html>
