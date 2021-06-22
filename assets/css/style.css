@@ -104,7 +104,8 @@ header a {
 }
 
 .material-icons {
-    font-size: 82px;
+    font-size: 82px !important;
+    text-shadow: #f7756f 10px 5px; 
 }
 
 /* Introduction to MBCT */ 
