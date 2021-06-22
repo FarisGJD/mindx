@@ -28,11 +28,11 @@
                     <a href="index.html" class="nav-hov">Home</a>
                 </li>
                 <li>
-                    <a href="guided-meditation.html" class="nav-hov">Guided Meditation</a>
+                    <a href="#guided-meditation" class="nav-hov">Guided Meditation</a>
 
                 </li>
                 <li>
-                    <a href="sign-up.html"><button id="signup-call">Sign Up</button></a>
+                    <a href="#sign-up"><button id="signup-call">Sign Up</button></a>
                 </li>
             </ul>
         </nav>
@@ -42,7 +42,44 @@
         <h2>Exercise your mind <i class="material-icons">lock_open</i> Unlock Your Potential</h2>
     </div>
     </section>
-    <!-- Social Media Links & Contact Details -->
+    
+    <!-- Guided Meditations-->
+    <article>
+        <div id="guided-meditation">
+            <h2>Mindfulness</h2> 
+        </div>  
+    </article>
+    <section>
+        Guided Meditations & Useful Articles 
+    </section>
+    
+     <!-- Sign Up Form -->
+     <section id="sign-up">
+        <form method="POST" class="sign-up-form" action=>
+            <h2>Open Your Mind Eye & Sign Up!</h2>
+            <label for="fname">First Name:</label>
+            <input class="text-details" id="fname" name="first_name"  type="text" placeholder="Forename" required>
+    
+            <label for="lname">Last Name:</label>
+            <input class="text-details" id="lname" name="last_name" type="text" placeholder="Surname" required>
+    
+            <label for="email">Email Address:</label>
+            <input class="text-details" id="email" name="email_address" type="email" placeholder="Email" required>
+    
+            <label for="phone">Phone Number:</label>
+            <input class="text-details" id="phone" name="mobile_number" type="tel" placeholder="Number">
+            
+            <br>
+            <label for="reasons">Reasons For Joining:</label>
+            <textarea class="text-details" id="reasons" cols="50" rows="10" name="reasons" placeholder="Main Concern"></textarea>
+    
+            <br>
+    
+            <input class="sumbit-button" type="submit" value="Open Minds Eye">
+        </form>
+        </section>
+
+          <!-- Social Media Links & Contact Details -->
     <footer>
         <ul id="social-networks">
             <li>
@@ -61,6 +98,8 @@
         <p>Contact Us - mindfulness@mindx.com</p>
         <p><i class="far fa-copyright"></i> 2021 MINDX.Ltd</p>
     </footer>
+    
+  
 
     <!-- Font Aweome Script -->
     <script src="https://kit.fontawesome.com/79a9048c05.js" crossorigin="anonymous"></script>

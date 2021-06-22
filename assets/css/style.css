@@ -43,7 +43,7 @@ body {
     text-shadow: #f7756f 10px 5px; 
 }
 
-/* Navigation Bar & Effect */ 
+/*  Navigation Bar & Effect */ 
 
 header {
     display: flex;
@@ -65,13 +65,14 @@ header a {
     padding-top: 60px; 
     text-transform: uppercase;
     font-family: Oswald, sans-serif; 
+    text-shadow: #f7756f 1px 1px;
 }
 
 .nav-hov:hover {
     border-bottom: 3px solid  #f7756f;
 }
 
-/* Sign Up Button & Effect*/ 
+/* Sign Up Button & Effect */ 
 
 #signup-call {
     background-color: #f7756f;
@@ -107,6 +108,60 @@ header a {
     text-shadow: #f7756f 10px 5px;
 }
 
+/* Introduction to MBCT */ 
+
+#guided-meditation h2 {
+    font-size: 20rem;
+    text-align: center; 
+    font-family: Oswald; 
+    text-shadow: #f7756f 10px 5px; 
+    text-transform: uppercase;
+}
+
+/* Sign Up Form */ 
+
+.sign-up-form {
+    margin: 150px 10% 0 0; 
+    color: #ffffff;
+    background: rgba(250, 124, 117, 0.9);
+    max-width: 400px;
+    left: 10%;
+    padding: 30px; 
+    box-shadow: #FBFFFF 4px 5px;
+}
+
+.sign-up-form > h2 {
+    margin-bottom: 20px;
+    font-size: 4rem; 
+}
+
+.text-details {
+    background: transparent; 
+    color: #ffffff;  
+    width: 100%; 
+    height: 25px; 
+    margin: 5px 0 20px 0; 
+    border: 1px solid  #FBFFFF; 
+    box-shadow:  #FBFFFF 4px 5px;
+}
+
+.sumbit-button {
+    margin-top: 20px; 
+    padding: 15px 32px 15px 32px; 
+    text-align: center; 
+    font-size: 100%; 
+    background-color: #f7756f;
+    color: #ffffff; 
+    box-shadow: #f7756f 10px 5px; 
+    display: block; 
+    border: 3px solid #FBFFFF; 
+}
+
+.sumbit-button:hover {
+    background-color: #FBFFFF; 
+    color: #f1c2b0;
+}
+
 /* Footer */ 
 
 footer {
@@ -128,19 +183,3 @@ footer {
     list-style-type: none;
     padding: 3rem;
 }
-
-
-
-/* Introduction to MBCT */ 
-
-/* #guided-meditation h2 {
-    font-size: 20rem;
-    text-align: center; 
-    font-family: Oswald; 
-    text-shadow: #f7756f 10px 5px; 
-    text-transform: uppercase;
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%)
-} */
