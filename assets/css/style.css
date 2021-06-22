@@ -25,9 +25,9 @@ body {
 #hero-image {
     background: url(/assets/images/hero-imageS.jpg) center center no-repeat;
     width: 100%; 
-    min-height: 95vh;
-    background-size: cover; 
-    position: relative;  
+    min-height: 100vh;
+    background-size: cover;  
+    position: relative; 
 }
 
 /* logo */ 
@@ -38,7 +38,7 @@ body {
     text-shadow: #FBFFFF 4px 5px;    
 }
 
-#logo b  {
+#logo span  {
     font-size: 16rem;  
     text-shadow: #f7756f 10px 5px; 
 }
@@ -47,7 +47,7 @@ body {
 
 header {
     display: flex;
-    padding: 0px 150px; 
+    padding: 0px 150px;
     justify-content: space-between;
     align-items: center;    
 }
@@ -96,11 +96,12 @@ header a {
 
 #ethos {
     position: absolute; 
-    font-size: 5.44rem; 
+    font-size: 5.5rem; 
     text-transform: uppercase; 
-    top: 75%;   
+    top: 72%;   
     text-shadow: #FBFFFF 4px 5px; 
     font-family: Raleway;
+    text-align: center;
 }
 
 .material-icons {
@@ -110,12 +111,16 @@ header a {
 
 /* Introduction to MBCT */ 
 
+#guided-meditation {
+    position: realtive;
+    text-align: center;
+}
 #guided-meditation h2 {
-    font-size: 20rem;
-    text-align: center; 
-    font-family: Oswald; 
-    text-shadow: #f7756f 10px 5px; 
-    text-transform: uppercase;
+    color: #f7756f; 
+    font-size: 20rem; 
+    font-family: Raleway;  
+    text-transform: uppercase; 
+    text-shadow: #ffffff 5px 5px, #f7756f 10px 10px, #ffffff 15px 15px, #f7756f 20px 20px, #ffffff 30px 30px, #f7756f 35px 35px; 
 }
 
 /* Sign Up Form */ 
