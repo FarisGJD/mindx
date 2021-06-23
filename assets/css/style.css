@@ -35,7 +35,7 @@ body {
 #logo {
     font-family: Raleway, sans-serif; 
     font-size: 12rem;
-    text-shadow: #FBFFFF 4px 5px;    
+    text-shadow: #FBFFFF 4px 5px; 
 }
 
 #logo span  {
@@ -111,17 +111,39 @@ header a {
 
 /* Introduction to MBCT */ 
 
-#guided-meditation {
-    position: realtive;
-    text-align: center;
+#intro-mbct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-#guided-meditation h2 {
-    color: #f7756f; 
+
+#intro-mbct h2 {
+    color: #f7756f;
     font-size: 20rem; 
     font-family: Raleway;  
     text-transform: uppercase; 
-    text-shadow: #ffffff 5px 5px, #f7756f 10px 10px, #ffffff 15px 15px, #f7756f 20px 20px, #ffffff 30px 30px, #f7756f 35px 35px; 
+    text-shadow: #f7756f 2px 2px, #ffffff 15px 15px; 
 }
+
+/* Meditation Icon Container */ 
+
+#self-improvment-container {
+    background: #ffffff;
+    height: 500px; 
+    width: 500px; 
+    border-radius: 50%;
+    position: relative; 
+}
+
+.yoga {
+    font-size: 800px !important; 
+    color: #f7756f; 
+    position: absolute;
+    right: -30%; 
+    bottom: -30%; 
+}
+
+/* Guided Meditation */ 
 
 /* Sign Up Form */ 
 
@@ -188,3 +210,4 @@ footer {
     list-style-type: none;
     padding: 3rem;
 }
+
