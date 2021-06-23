@@ -62,7 +62,7 @@ header a {
     display: inline-block; 
     font-size: 2.4rem; 
     margin: 5px; 
-    padding-top: 60px; 
+    padding-top: 30px;
     text-transform: uppercase;
     font-family: Oswald, sans-serif; 
     text-shadow: #f7756f 1px 1px;
@@ -211,3 +211,20 @@ footer {
     padding: 3rem;
 }
 
+#bottom-navbar {
+    display: flex;
+    padding: 0px 150px;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#bottom-navbar a {
+    text-decoration: none; 
+    color: inherit; 
+    font-size: 2.4rem; 
+    margin: 5px; 
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif; 
+    text-shadow: #f7756f 1px 1px;
+}
