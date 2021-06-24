@@ -138,9 +138,9 @@ header a {
     text-align: right;
 }
 
-/* #mbct-left-container {
+#mbct-left-container {
     text-align: left;
-}  */
+}  
 
 /* Meditation Icon Container */ 
 
@@ -150,7 +150,7 @@ header a {
     width: 600px; 
     border-radius: 50%;
     position: relative; 
-    box-shadow: #f7756f 10px 5px; 
+    box-shadow: #f7756f 10px 5px;
 }
 
 .yoga {
@@ -165,7 +165,6 @@ header a {
     padding: 0px 150px;
     justify-content: space-between;
     align-items: center; 
-    background-color: #ffffff;
 }
 
 #bottom-navbar a {
@@ -179,7 +178,8 @@ header a {
     text-shadow: #f7756f 1px 1px;
 }
 
-/* Guided Meditation */ 
+/* Guided Meditations */ 
+
 
 /* Sign Up Form */ 
 
