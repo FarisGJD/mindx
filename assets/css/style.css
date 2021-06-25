@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&family=Raleway:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/* Create A Base 10 Unit Measurments for rem & em */
+/* Create A Base 10 Unit Measurments for rem & em in adition to smooth scrolling */
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 /* Add Defualt Settings To Document */
