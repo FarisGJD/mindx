@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&family=Raleway:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/* Create A Base 10 Unit Measurments for rem & em in adition to smooth scrolling */
+/* Create A Base 10 Unit For Measurments & Adds Smooth Scrolling */
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -36,12 +36,12 @@ body {
 
 #logo {
     font-family: Raleway, sans-serif; 
-    font-size: 12rem;
+    font-size: 6rem;
     text-shadow: #FBFFFF 4px 5px; 
 }
 
 #logo span  {
-    font-size: 16rem;  
+    font-size: 8rem;  
     text-shadow: #f7756f 10px 5px; 
 }
 
@@ -49,9 +49,8 @@ body {
 
 header {
     display: flex;
-    padding: 0px 150px;
-    justify-content: space-between;
-    align-items: center;    
+    padding: 0px 100px;
+    justify-content: space-between;  
 }
 
 header a {
@@ -62,7 +61,7 @@ header a {
 #navbar li{
     list-style-type: none;
     display: inline-block; 
-    font-size: 2.4rem; 
+    font-size: 2rem; 
     margin: 5px; 
     padding-top: 30px;
     text-transform: uppercase;
@@ -80,13 +79,13 @@ header a {
     background-color: #f7756f;
     color: #ffffff; 
     text-transform: uppercase; 
-    border-radius: 5px; 
+    border-radius: 3px; 
     font-size: 2rem;  
-    padding: 10px 10px;
+    padding: 3px 3px;
     font-family: Oswald; 
     cursor: pointer; 
-    border: 3px solid #FBFFFF; 
-    box-shadow: #f7756f 10px 5px; 
+    border: 3.5px solid #FBFFFF; 
+    box-shadow: #f7756f 10px 5px;
 }
 
 #signup-call:hover {
@@ -180,6 +179,10 @@ header a {
 }
 
 /* Guided Meditations */ 
+
+#guided-meditations {
+    background-color: #f7756f;
+}
 
 
 /* Sign Up Form */ 
