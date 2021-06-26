@@ -112,6 +112,11 @@ header a {
 
 /* Introduction to MBCT */ 
 
+#intro-to-mbct {
+    height: 100vh;
+    width: 100vw; 
+}
+
 #intro-to-mbct h2 {
     color: #f7756f;
     font-size: 20rem; 
@@ -184,30 +189,76 @@ header a {
     background-color: #f7756f;
 }
 
+#guided-meditations h2 {
+    color: #ffffff;
+    font-size: 7rem; 
+    font-family: Raleway;  
+    text-transform: uppercase; 
+    text-shadow:  #f1c2b0 5px 5px;  
+}
+
+#guided-meditations p {
+    font-size: 2rem;
+}
+
+/* Guided Meditations Images */
+
 .guided {
-    font-size: 500px !important; 
-    color:  #f1c2b0
+    font-size: 50rem !important; 
+    color:  #f1c2b0; 
 }
 
 .fas {
-    font-size: 400px !important;
+    font-size: 40rem !important;
     color:  #f1c2b0;
     margin-top: 40px;
 }
 
 .square-icon-container {
     background-color: #ffffff;
-    height: 500px;
-    width: 500px;
-    border-radius: 10px;;
+    height: 50rem;
+    width: 50rem;
+    border-radius: 1rem;
 }
 
 .circle-icon-container {
     background-color: #ffffff;
-    height: 510px;
-    width: 510px;
+    height: 51rem;
+    width: 51rem;
     border-radius: 50%;
 }
+
+/* Guided Meditation Grid Layout */ 
+
+.guided-grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 150px 150px 50px;
+    grid-template-areas: "box1 box4"
+    "box2 ."
+    ". ."
+    "box3 .";
+
+}
+
+.box1 {
+    grid-area: box1; 
+}
+
+.box2 {
+    grid-area: box2; 
+}
+
+.box3 {
+    grid-area: box3; 
+}
+
+.box4 {
+    grid-area: box4; 
+}
+
+
 
 /* Sign Up Form */ 
 
