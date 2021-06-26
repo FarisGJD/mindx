@@ -105,7 +105,7 @@ header a {
     text-align: center;
 }
 
-.material-icons {
+.material-icons.lock {
     font-size: 82px !important;
     text-shadow: #f7756f 10px 5px; 
 }
@@ -184,6 +184,30 @@ header a {
     background-color: #f7756f;
 }
 
+.guided {
+    font-size: 500px !important; 
+    color:  #f1c2b0
+}
+
+.fas {
+    font-size: 400px !important;
+    color:  #f1c2b0;
+    margin-top: 40px;
+}
+
+.square-icon-container {
+    background-color: #ffffff;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;;
+}
+
+.circle-icon-container {
+    background-color: #ffffff;
+    height: 510px;
+    width: 510px;
+    border-radius: 50%;
+}
 
 /* Sign Up Form */ 
 
