@@ -105,43 +105,12 @@ header a {
     text-align: center;
 }
 
-.material-icons.lock {
-    font-size: 82px !important;
+.lock {
+    font-size: 8.2rem !important;
     text-shadow: #f7756f 10px 5px; 
 }
 
-/* Footer */ 
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.5rem;
-    text-shadow: #f7756f 1px 1px; 
-    text-transform: uppercase;
-    padding-right: 30px;
-}
-
-#contact-info {
-   
-    text-align: center;
-}
-#social-networks a {
-    color: inherit;
-}
-
-#social-networks li {
-    display: inline-block; 
-    list-style-type: none;
-    padding: 30px;
-} 
-
-
 /* Introduction to MBCT */ 
-
-#intro-to-mbct {
-    height: 100vh;
-}
 
 #intro-to-mbct h2 {
     color: #f7756f; 
@@ -149,11 +118,15 @@ footer {
     font-size: 20rem;
     text-transform: uppercase;
     text-shadow: #ffffff 15px 15px; 
-    text-align: center; 
+    text-align: center;
+    margin-top: 100px; 
 }
 
-
-
+.mindful-icon {
+    font-size: 80rem !important;
+    position: absolute;
+    left: 55%; 
+}
 /* Meditation Icon Container */ 
 
 /* #self-improvment-container {
@@ -163,13 +136,6 @@ footer {
     border-radius: 50%;
     position: relative; 
     box-shadow: #f7756f 10px 5px;
-}
-
-.mindful-icon {
-    font-size: 900px !important; 
-    color:  #ffffff;
-    margin-left: 1100px;
-    margin-bottom: 900px; 
 }
 
 /* Guided Meditations */ 
@@ -251,45 +217,90 @@ footer {
 
 /* Sign Up Form */ 
 
-.sign-up-form {
-    margin: 150px 10% 0 0; 
-    color: #ffffff;
-    background: rgba(250, 124, 117, 0.9);
-    max-width: 400px;
-    left: 10%;
-    padding: 30px; 
-    box-shadow: #FBFFFF 4px 5px;
+.sign-up {
+    display: flex; 
+    justify-content: center;
 }
 
-.sign-up-form > h2 {
+#sign-up-form {
+    position: realtive; 
+    width: 500px; 
+    height: 750px; 
+    background: rgba(250, 124, 117, 0.9);
+    border-radius: 3px;
+    padding: 40px;
+    box-shadow:  #ffffff 15px 15px 1px,  15px 15px 1px 2px #f7756f;
+}
+
+#sign-up-form > h2 {
     margin-bottom: 20px;
-    font-size: 4rem; 
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-family: raleway;
+    letter-spacing: 1px;
+}
+
+#sign-up-form > label {
+    font-size: 1.5rem;
+    font-family: raleway;
 }
 
 .text-details {
-    background: transparent; 
-    color: #ffffff;  
-    width: 100%; 
-    height: 25px; 
-    margin: 5px 0 20px 0; 
-    border: 1px solid  #FBFFFF; 
-    box-shadow:  #FBFFFF 4px 5px;
-}
-
-.sumbit-button {
-    margin-top: 20px; 
-    padding: 15px 32px 15px 32px; 
-    text-align: center; 
-    font-size: 100%; 
-    background-color: #f7756f;
-    color: #ffffff; 
-    box-shadow: #f7756f 10px 5px; 
     display: block; 
-    border: 3px solid #FBFFFF; 
+    width: 100%; 
+    box-shadow:  rgba(0,0,0,1);
+    height: 25px;
+    margin: 5px 0 20px 0; 
+    border: none;
+    border-radius: 3px;
+    box-shadow: #ffffff 5px 5px 1px,  5px 5px 1px 2px #f7756f;
+    border: 3px solid #f7756f;
 }
 
-.sumbit-button:hover {
-    background-color: #FBFFFF; 
-    color: #f1c2b0;
+.text-label {
+    height: 200px;
+    font-family: roboto;   
 }
 
+#submit-button {
+    text-align: center;
+    margin-left: 110px;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    box-shadow: #ffffff 5px 5px 1px,  5px 5px 1px 2px #f7756f;
+    border: 3px solid #f7756f;  
+    color: #f7756f; 
+    font-family: raleway;
+}
+
+#submit-button:hover {
+    background-color: #f7756f; 
+    color: #ffffff;
+    cursor: pointer;
+} 
+
+/* Footer */ 
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    text-shadow: #f7756f 1px 1px; 
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+
+#contact-info {
+   
+    text-align: center;
+}
+#social-networks a {
+    color: inherit;
+}
+
+#social-networks li {
+    display: inline-block; 
+    list-style-type: none;
+    padding: 30px;
+} 

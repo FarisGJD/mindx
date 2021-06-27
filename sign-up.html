@@ -41,28 +41,28 @@
         </nav>
     </header>
      <!-- Sign Up Form -->
-     <section id="sign-up">
-        <form method="POST" class="sign-up-form" action=>
-            <h2>Open Your Mind Eye & Sign Up!</h2>
-            <label for="fname">First Name:</label>
+     <section class="sign-up">
+        <form method="POST" id="sign-up-form" action=>
+            <h2>Open your minds eye</h2>
+            <label class="sign-label" for="fname">First Name:</label>
             <input class="text-details" id="fname" name="first_name"  type="text" placeholder="Forename" required>
     
-            <label for="lname">Last Name:</label>
+            <label class="sign-label" for="lname">Last Name:</label>
             <input class="text-details" id="lname" name="last_name" type="text" placeholder="Surname" required>
     
-            <label for="email">Email Address:</label>
+            <label class="sign-label" for="email">Email Address:</label>
             <input class="text-details" id="email" name="email_address" type="email" placeholder="Email" required>
     
-            <label for="phone">Phone Number:</label>
+            <label class="sign-label" for="phone">Phone Number:</label>
             <input class="text-details" id="phone" name="mobile_number" type="tel" placeholder="Number">
-            
+
             <br>
-            <label for="reasons">Reasons For Joining:</label>
-            <textarea class="text-details" id="reasons" cols="50" rows="10" name="reasons" placeholder="Main Concern"></textarea>
+            <label class="sign-label" for="reasons">Reasons For Joining:</label>
+            <textarea class="text-details text-label" id="reasons" cols="50" rows="10" name="reasons" placeholder="Main Concern"></textarea>
     
             <br>
     
-            <input class="sumbit-button" type="submit" value="Open Minds Eye">
+            <input id="submit-button" type="submit" value="Open Minds Eye">
         </form>
         </section>
 
