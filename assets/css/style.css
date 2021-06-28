@@ -213,13 +213,84 @@ header a {
     grid-area: image-box; 
 }
 
+/* Sign Up Header & Eye Animation */
 
+#animation-header {
+    font-size: 10rem; 
+    font-family: Raleway;
+    text-transform: uppercase;
+    color: #f7756f; 
+    text-shadow: #ffffff 8px 8px; 
+}
 
+#eye-animation {
+    width: 500px; 
+    height: 500px; 
+    background: #ffffff;
+    transform: rotate(45deg);
+    border-radius: 75% 0;
+    overflow: hidden; 
+    cursor: pointer;
+}
+
+#ball-animation {
+    width: 200px; 
+    height: 200px; 
+    background: #F6BD60;
+    border-radius: 50%;
+    border: 60px solid #2f2f2f; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+#shut-animation {
+    width: 710px; 
+    height: 400px; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%) rotate(-45deg);
+    z-index: 999;
+}
+
+#shut-animation span {
+    display: block; 
+    width: 100%; 
+    height: 20%; 
+    background: #f7756f; 
+    border-radius: 0 0 60% 60%;
+    transition: 0.4s all; 
+}
+
+#eye-animation:hover > #shut-animation span {
+    height: 100%; 
+
+}
 /* Sign Up Form */ 
 
 .sign-up {
-    display: flex; 
-    justify-content: center;
+    padding-left: 200px;
+    display: grid;
+    grid-template-columns: 1150px 600px;
+    grid-template-rows: 100px 50px;
+    grid-template-areas: "animation-header sign-up-form"
+    ". ."
+    "eye-animation ."; 
+}
+
+#animation-header {
+    grid-area: animation-header;
+}
+
+#eye-animation {
+    grid-area: eye-animation;
+    margin-left: 250px;
+}
+
+#sign-up-form {
+    grid-area: sign-up-form;
 }
 
 #sign-up-form {
@@ -229,6 +300,7 @@ header a {
     background: rgba(250, 124, 117, 0.9);
     border-radius: 3px;
     padding: 40px;
+    margin: 30px;
     box-shadow:  #ffffff 15px 15px 1px,  15px 15px 1px 2px #f7756f;
 }
 
@@ -238,6 +310,7 @@ header a {
     text-transform: uppercase;
     font-family: raleway;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 #sign-up-form > label {
@@ -264,13 +337,14 @@ header a {
 
 #submit-button {
     text-align: center;
-    margin-left: 110px;
+    margin-left: 90px;
     padding: 20px 40px;
     background-color: #ffffff;
     box-shadow: #ffffff 5px 5px 1px,  5px 5px 1px 2px #f7756f;
     border: 3px solid #f7756f;  
     color: #f7756f; 
     font-family: raleway;
+    text-transform: uppercase;
 }
 
 #submit-button:hover {
@@ -284,17 +358,13 @@ header a {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-size: 1.5rem;
-    text-shadow: #f7756f 1px 1px; 
+    padding: 1.8rem;
     text-transform: uppercase;
-    padding-right: 30px;
+    text-shadow: #f7756f 1px 1px; 
+    font-size: 1.5rem;
+    align-items: center;
 }
 
-#contact-info {
-   
-    text-align: center;
-}
 #social-networks a {
     color: inherit;
 }
@@ -302,5 +372,5 @@ footer {
 #social-networks li {
     display: inline-block; 
     list-style-type: none;
-    padding: 30px;
-} 
+    padding: 10px;
+}
