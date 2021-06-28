@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&family=Raleway:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/* Create A Base 10 Unit For Measurments & Adds Smooth Scrolling */
+/* Create A Base 10 Unit For Measurments */
 html {
     font-size: 62.5%;
-    scroll-behavior: smooth;
 }
 
 /* Add Defualt Settings To Document */
@@ -20,6 +19,8 @@ body {
     font-weight: 300; 
     color: #ffffff;
     background-image: linear-gradient(to right, #f1c2b0, #f1c2ae, #f0c2ae, #eec1ae,  #eebfac, #edbfac);  
+    background-attachment: fixed;
+    background-origin: initial;
 }
 
 /* Hero Image */
@@ -112,83 +113,62 @@ header a {
 
 /* Introduction to MBCT */ 
 
+#intro-to-mbct {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 400px 400px;
+}
+
 #intro-to-mbct h2 {
     color: #f7756f; 
     font-family: Raleway;
     font-size: 20rem;
     text-transform: uppercase;
-    text-shadow: #ffffff 15px 15px; 
-    text-align: center;
-    margin-top: 100px; 
+    text-shadow: #ffffff 15px 15px;
+    margin-top: 70px;
 }
-
+ 
 .mindful-icon {
-    font-size: 80rem !important;
-    position: absolute;
-    left: 55%; 
+    font-size: 80rem !important; 
+    text-shadow: #f7756f 10px 5px
 }
-/* Meditation Icon Container */ 
 
-/* #self-improvment-container {
-    background: #ffffff;
-    height: 600px; 
-    width: 600px; 
-    border-radius: 50%;
-    position: relative; 
-    box-shadow: #f7756f 10px 5px;
+#intro-to-mbct p {
+    font-size: 3rem; 
+    text-shadow: #f7756f 1px 1px;
 }
 
 /* Guided Meditations */ 
 
-#guided-meditations {
-    background-color: #f7756f;
-}
-
 #guided-meditations h2 {
+    font-size: 15rem; 
+    text-align: center;
+    font-family: Raleway;  
+    text-transform: uppercase; 
+    color: #f7756f;
+    text-shadow: #ffffff 5px 5px; 
+    margin-top: 100px;
+}
+#guided-meditations h3 {
     color: #ffffff;
     font-size: 7rem; 
     font-family: Raleway;  
     text-transform: uppercase; 
-    text-shadow:  #f1c2b0 5px 5px;  
+    text-shadow:  #f7756f 5px 5px;  
 }
 
 #guided-meditations p {
     font-size: 2rem;
+    text-shadow: #f7756f 1px 1px;
 }
-
-/* Guided Meditations Images */
-
-.guided {
-    font-size: 50rem !important; 
-    color:  #f1c2b0; 
-}
-
-.fas {
-    font-size: 40rem !important;
-    color:  #f1c2b0;
-    margin-top: 40px;
-}
-
-.square-icon-container {
-    background-color: #ffffff;
-    height: 50rem;
-    width: 50rem;
-    border-radius: 1rem;
-}
-
-.circle-icon-container {
-    background-color: #ffffff;
-    height: 51rem;
-    width: 51rem;
-    border-radius: 50%;
-}
-
-/* Guided Meditation Grid Layout */ 
 
 .guided-grid {
-    height: 100vh;
+    margin-top: 100px;
+    justify-content: center;
+    height: 70vh;
     width: 100vw;
     display: grid;
+    column-gap: 50px;
     grid-template-columns: 600px 600px;
     grid-template-rows: 150px 150px 50px;
     grid-template-areas: "heading-box image-box"
@@ -213,14 +193,45 @@ header a {
     grid-area: image-box; 
 }
 
-/* Sign Up Header & Eye Animation */
+/* Guided Meditations Images */
+
+.guided {
+    font-size: 50rem !important; 
+    color:  #ffffff; 
+    text-shadow:  #f7756f 5px 5px; 
+}
+
+.fas {
+    font-size: 40rem !important;
+    color:  #ffffff;
+    margin-top: 40px;
+    text-shadow:  #f7756f 5px 5px; 
+}
+
+.square-icon-container {
+    background-color: #f7756f;
+    height: 50rem;
+    width: 50rem;
+    border-radius: 1rem;
+    text-shadow:  #f7756f 5px 5px; 
+}
+
+.circle-icon-container {
+    background-color: #f7756f;
+    height: 51rem;
+    width: 51rem;
+    border-radius: 50%;
+    box-shadow:  #f7756f 5px 5px; 
+}
+
+/* Sign Up - Header & Eye Animation */
 
 #animation-header {
     font-size: 10rem; 
     font-family: Raleway;
     text-transform: uppercase;
     color: #f7756f; 
-    text-shadow: #ffffff 8px 8px; 
+    text-shadow: #ffffff 8px 8px;
 }
 
 #eye-animation {
@@ -236,7 +247,7 @@ header a {
 #ball-animation {
     width: 200px; 
     height: 200px; 
-    background: #F6BD60;
+    background: #468C98;
     border-radius: 50%;
     border: 60px solid #2f2f2f; 
     position: absolute;
@@ -268,9 +279,10 @@ header a {
     height: 100%; 
 
 }
-/* Sign Up Form */ 
+/* Sign Up Form  */ 
 
 .sign-up {
+    margin-top: 50px;
     padding-left: 200px;
     display: grid;
     grid-template-columns: 1150px 600px;
@@ -360,9 +372,10 @@ footer {
     justify-content: space-between;
     padding: 1.8rem;
     text-transform: uppercase;
-    text-shadow: #f7756f 1px 1px; 
+    text-shadow: #f7756f 1px 1px;
     font-size: 1.5rem;
     align-items: center;
+    margin-top: 160px;
 }
 
 #social-networks a {
