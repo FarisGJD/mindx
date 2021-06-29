@@ -50,7 +50,7 @@ body {
 
 header {
     display: flex;
-    padding: 0px 100px;
+    padding: 10px 100px;
     justify-content: space-between;  
 }
 
@@ -59,7 +59,7 @@ header a {
     color: inherit; 
 }
 
-#navbar li{
+.navbar li{
     list-style-type: none;
     display: inline-block; 
     font-size: 2rem; 
@@ -72,6 +72,17 @@ header a {
 
 .nav-hov:hover {
     border-bottom: 3px solid  #f7756f;
+}
+
+a:active {
+    background-color: #f7756f;
+}
+
+/* Guided Meditations Header */ 
+
+#guided-sticky-header {
+    position: sticky; 
+    top: 0;
 }
 
 /* Sign Up Button & Effect */ 
@@ -166,7 +177,6 @@ header a {
     margin-top: 100px;
     justify-content: center;
     height: 70vh;
-    width: 100vw;
     display: grid;
     column-gap: 50px;
     grid-template-columns: 600px 600px;
@@ -222,6 +232,17 @@ header a {
     width: 51rem;
     border-radius: 50%;
     box-shadow:  #f7756f 5px 5px; 
+}
+
+/* Guided Meditations Audio */
+
+audio {
+    width: 400px; 
+}
+
+audio:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(4px 8px 8px #f7756f);
 }
 
 /* Sign Up - Header & Eye Animation */
