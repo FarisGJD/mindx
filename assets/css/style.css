@@ -145,6 +145,13 @@ header a {
     text-shadow: #f7756f 1px 1px;
 }
 
+/* SVG Styling Provided By: https://www.shapedivider.app/ */
+
+.svg-style {
+    position: relative;   
+}
+
+
 /* Guided Meditations */ 
 
 #guided-meditations h2 {
@@ -154,7 +161,7 @@ header a {
     text-transform: uppercase; 
     color: #f7756f;
     text-shadow: #ffffff 5px 5px; 
-    margin-top: 100px;
+    margin-top: 200px;
 }
 #guided-meditations h3 {
     color: #ffffff;
@@ -238,7 +245,6 @@ audio {
 
 audio:hover{
     transform: scale(1.1);
-    filter: drop-shadow(4px 8px 8px #f7756f);
 }
 
 /* Sign Up - Header & Eye Animation */
@@ -323,7 +329,6 @@ audio:hover{
 }
 
 #sign-up-form {
-    position: realtive; 
     width: 500px; 
     height: 750px; 
     background: rgba(250, 124, 117, 0.9);
@@ -387,7 +392,7 @@ audio:hover{
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 0 20px;
     text-transform: uppercase;
     text-shadow: #f7756f 1px 1px;
     font-size: 1.5rem;
