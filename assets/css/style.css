@@ -70,12 +70,8 @@ header a {
     text-shadow: #f7756f 1px 1px;
 }
 
-.nav-hov:hover {
+.nav-hov:hover, .active {
     border-bottom: 3px solid  #f7756f;
-}
-
-a:active {
-    background-color: #f7756f;
 }
 
 /* Guided Meditations Header */ 
