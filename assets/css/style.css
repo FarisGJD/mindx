@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font-family: roboto, sans-serif; 
+    font-family: roboto, serif; 
     font-weight: 300; 
     color: #ffffff;
     background-image: linear-gradient(to right, #f1c2b0, #f1c2ae, #f0c2ae, #eec1ae,  #eebfac, #edbfac);  
@@ -25,7 +25,7 @@ body {
 /* Hero Image */
 
 #hero-image {
-    background: url(/assets/images/hero-imageS.jpg) center center no-repeat;
+    background: url(/assets/images/hero-imageS-min.jpg) center center no-repeat;
     width: 100vw; 
     min-height: 100vh;
     background-size: cover; 
@@ -107,7 +107,7 @@ header a {
     text-transform: uppercase; 
     top: 72%;   
     text-shadow: #FBFFFF 4px 5px; 
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     text-align: center;
 }
 
@@ -126,7 +126,7 @@ header a {
 
 #intro-to-mbct h2 {
     color: #f7756f; 
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20rem;
     text-transform: uppercase;
     text-shadow: #ffffff 15px 15px;
@@ -140,7 +140,6 @@ header a {
 
 #intro-to-mbct p {
     font-size: 3rem; 
-    text-shadow: #f7756f 1px 1px;
 }
 
 /* SVG Styling Provided By: https://www.shapedivider.app/ */
@@ -155,7 +154,7 @@ header a {
 #guided-meditations h2 {
     font-size: 15rem; 
     text-align: center;
-    font-family: Raleway;  
+    font-family: Raleway, sans-serif;  
     text-transform: uppercase; 
     color: #f7756f;
     text-shadow: #ffffff 5px 5px; 
@@ -164,14 +163,13 @@ header a {
 #guided-meditations h3 {
     color: #ffffff;
     font-size: 7rem; 
-    font-family: Raleway;  
+    font-family: Raleway, sans-serif;  
     text-transform: uppercase; 
     text-shadow:  #f7756f 5px 5px;  
 }
 
 #guided-meditations p {
     font-size: 2rem;
-    text-shadow: #f7756f 1px 1px;
 }
 
 .guided-grid {
@@ -249,7 +247,7 @@ audio:hover{
 
 #animation-header {
     font-size: 10rem; 
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     text-transform: uppercase;
     color: #f7756f; 
     text-shadow: #ffffff 8px 8px;
@@ -340,14 +338,14 @@ audio:hover{
     margin-bottom: 20px;
     font-size: 3.5rem;
     text-transform: uppercase;
-    font-family: raleway;
+    font-family: Raleway, sans-serif;
     letter-spacing: 1px;
     text-align: center;
 }
 
 #sign-up-form > label {
     font-size: 1.5rem;
-    font-family: raleway;
+    font-family: Raleway, sans-serif;
 }
 
 .text-details {
@@ -375,7 +373,7 @@ audio:hover{
     box-shadow: #ffffff 5px 5px 1px,  5px 5px 1px 2px #f7756f;
     border: 3px solid #f7756f;  
     color: #f7756f; 
-    font-family: raleway;
+    font-family: Raleway, sans-serif;
     text-transform: uppercase;
 }
 
