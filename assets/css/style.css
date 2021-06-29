@@ -116,51 +116,27 @@ header a {
     text-shadow: #f7756f 10px 5px; 
 }
 
-/* Introduction to MBCT */ 
-
-#intro-to-mbct {
-    display: grid;
-    grid-template-columns: 600px 600px;
-    grid-template-rows: 400px 400px;
-}
-
-#intro-to-mbct h2 {
-    color: #f7756f; 
-    font-family: Raleway, sans-serif;
-    font-size: 20rem;
-    text-transform: uppercase;
-    text-shadow: #ffffff 15px 15px;
-    margin-top: 70px;
-}
- 
-.mindful-icon {
-    font-size: 80rem !important; 
-    text-shadow: #f7756f 10px 5px
-}
-
-#intro-to-mbct p {
-    font-size: 3rem; 
-}
-
-/* SVG Styling Provided By: https://www.shapedivider.app/ */
-
-.svg-style {
-    position: relative;   
-}
-
 
 /* Guided Meditations */ 
 
-#guided-meditations h2 {
-    font-size: 15rem; 
+.guided-meditations h2 {
+    font-size: 18rem; 
     text-align: center;
     font-family: Raleway, sans-serif;  
     text-transform: uppercase; 
     color: #f7756f;
-    text-shadow: #ffffff 5px 5px; 
+    text-shadow: #ffffff 12px 12px; 
     margin-top: 200px;
 }
-#guided-meditations h3 {
+
+.guided-meditations P {
+    font-size: 3rem;
+    justify-content: center;
+    width: 100%;
+    margin-left: 10px;;
+}
+
+.guided-grid h3 {
     color: #ffffff;
     font-size: 7rem; 
     font-family: Raleway, sans-serif;  
@@ -168,7 +144,7 @@ header a {
     text-shadow:  #f7756f 5px 5px;  
 }
 
-#guided-meditations p {
+.guided-grid p {
     font-size: 2rem;
 }
 
@@ -217,6 +193,9 @@ header a {
     text-shadow:  #f7756f 5px 5px; 
 }
 
+.far {
+    margin: 0 0 5px 15px;
+}
 .square-icon-container {
     background-color: #f7756f;
     height: 50rem;
@@ -390,18 +369,23 @@ footer {
     justify-content: space-between;
     padding: 0 20px;
     text-transform: uppercase;
-    text-shadow: #f7756f 1px 1px;
     font-size: 1.5rem;
     align-items: center;
-    margin-top: 160px;
+    margin: 160px 15px 0 0;
 }
 
-#social-networks a {
+.social-networks a {
     color: inherit;
 }
 
-#social-networks li {
+.social-networks li {
     display: inline-block; 
     list-style-type: none;
     padding: 10px;
+}
+
+/* Footer Home Page */ 
+
+#footer-home {
+    margin: 0 0 0 0; 
 }
