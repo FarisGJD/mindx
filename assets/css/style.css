@@ -24,7 +24,7 @@ body {
 
 /* Hero Image */
 
-#hero-image {
+#background-image {
     background: url('../images/hero-imageS.jpg') center center no-repeat;
     width: 100vw; 
     min-height: 96vh;
@@ -36,7 +36,6 @@ body {
 #logo {
     font-family: Raleway, sans-serif; 
     font-size: 6rem;
-    text-shadow: #FBFFFF 4px 5px; 
 }
 
 #logo span  {
@@ -48,7 +47,7 @@ body {
 
 header {
     display: flex;
-    padding: 10px 100px;
+    padding: 10px 50px;
     justify-content: space-between;  
 }
 
@@ -61,11 +60,10 @@ header a {
     list-style-type: none;
     display: inline-block; 
     font-size: 2rem; 
-    margin: 5px; 
-    padding-top: 30px;
+    margin: 5px;
+    line-height: 105px;
     text-transform: uppercase;
-    font-family: Oswald, sans-serif; 
-    text-shadow: #f7756f 1px 1px;
+    font-family: Oswald, sans-serif;
 }
 
 .nav-hov:hover, .active {
@@ -105,8 +103,11 @@ header a {
     position: absolute; 
     font-size: 5.5rem; 
     text-transform: uppercase; 
+    margin-left: auto;
+    margin-right: auto; 
+    left: 0; 
+    right: 0; 
     top: 72%;   
-    text-shadow: #FBFFFF 4px 5px; 
     font-family: Raleway, sans-serif;
     text-align: center;
 }
@@ -401,3 +402,73 @@ footer {
 }
 
 /* Media Queries */ 
+
+/* Screen Size: 1200px & Below */ 
+@media screen and (max-width: 1200px) {
+    #ethos {
+        top: 65%;
+    }
+}
+
+/* Screen Size: 768px & Below */ 
+@media screen and (max-width: 768px) {
+    #ethos   {
+        font-size: 4rem; 
+    }
+
+    .lock {
+        font-size: 5rem !important;
+    }
+
+    #logo {
+        font-size: 5.5rem;
+    }
+
+    #logo > span {
+        font-size: 7.5rem;
+    }
+
+    .navbar li {
+        font-size: 1.5rem;
+    }
+
+    #signup-call {
+        font-size: 1.5rem;
+    }
+
+   
+    header {
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+    } 
+}
+
+
+
+/* Screen Size: 480px & Below */ 
+@media screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .navbar li {
+        line-height: 0;
+    }
+
+    #ethos {
+        font-size: 3rem;
+    }
+
+    footer {
+        font-size: 1.4rem;
+    }
+
+    #background-image {
+        background-size: 1000px;
+    }
+}
