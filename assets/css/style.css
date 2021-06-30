@@ -152,7 +152,7 @@ header a {
 
 .guided-grid h3 {
     color: #ffffff;
-    font-size: 7rem; 
+    font-size: 6.5rem; 
     font-family: Raleway, sans-serif;  
     text-transform: uppercase; 
     text-shadow:  #f7756f 3px 3px, #ffffff 6px 6px;
@@ -163,12 +163,12 @@ header a {
 }
 
 .guided-grid {
-    margin-top: 100px;
+    margin: 100px 400px 0 400px;
     justify-content: center;
     height: 65vh;
     display: grid;
     column-gap: 50px;
-    grid-template-columns: 600px 600px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 150px 50px;
     grid-template-areas: "heading-box image-box"
     "paragraph-box ."
@@ -182,20 +182,26 @@ header a {
 
 .paragraph-box {
     grid-area: paragraph-box; 
+    width: 50rem;
 }
 
 .exercise-box {
     grid-area: exercise-box; 
+    padding-top: 30px;
+    margin-top: 20px;
 }
 
 .image-box {
     grid-area: image-box; 
 }
 
+.exercise-grid {
+    margin-bottom: 200px;
+}
 /* Guided Meditations Images */
 
 .guided {
-    font-size: 50rem !important; 
+    font-size: 40rem !important; 
     color:  #ffffff; 
     text-shadow:  #f1c2b0 15px 15px
 }
@@ -212,16 +218,16 @@ header a {
 }
 .square-icon-container {
     background-color: #f7756f;
-    height: 50rem;
-    width: 50rem;
+    height: 40rem;
+    width: 40rem;
     border-radius: 1rem;
     box-shadow:  #ffffff 5px 5px, #f7756f 10px 10px, #ffffff 15px 15px, #f7756f 20px 20px, #ffffff 25px 25px; 
 }
 
 .circle-icon-container {
     background-color: #f7756f;
-    height: 51rem;
-    width: 51rem;
+    height: 40rem;
+    width: 40rem;
     border-radius: 50%;
     box-shadow:  #ffffff 5px 5px, #f7756f 10px 10px, #ffffff 15px 15px, #f7756f 20px 20px, #ffffff 25px 25px; 
 }
@@ -411,8 +417,22 @@ footer {
     #ethos {
         top: 65%;
     }
+
+
 }
 
+/* Screen Size: 1024px & Below */ 
+@media screen and (max-width: 1024px) {
+    .guided-meditations h2 {
+        font-size: 12.5rem;
+    }
+
+    .guided-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 /* Screen Size: 768px & Below */ 
 @media screen and (max-width: 768px) {
     #ethos   {
