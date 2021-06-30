@@ -121,7 +121,7 @@ header a {
 /* Guided Meditations */ 
 
 .guided-meditations h2 {
-    font-size: 18rem; 
+    font-size: 15rem; 
     text-align: center;
     font-family: Raleway, sans-serif;  
     text-transform: uppercase; 
@@ -131,20 +131,23 @@ header a {
 }
 
 #intro-to-mbct {
-    display: flex; 
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
-#intro-to-mbct > p {
+.intro-to-mbct > p {
     text-align: center;
-    width: 40%;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 4rem;
+    text-align: left;
+    background-color: #f7756f;
 }
 
-.guided-meditations P {
-    font-size: 3rem;
-    justify-content: center;
-    width: 100%;
-    margin-left: 10px;;
+#right-aligned-p {
+    text-align: right;
+    background-color: #ffffff;
+    color: #f7756f; 
 }
 
 .guided-grid h3 {
@@ -486,5 +489,9 @@ footer {
 @media screen and (max-width: 280px) {
     footer {
         font-size: 1.2rem;
+    }
+
+    #background-image {
+        background-size: 800px;
     }
 }
