@@ -461,7 +461,8 @@ footer {
     }
 
     #ethos {
-        font-size: 3rem;
+        font-size: 2.8rem;
+        top: 68%;
     }
 
     footer {
@@ -469,6 +470,21 @@ footer {
     }
 
     #background-image {
-        background-size: 1000px;
+        background-size: 1000px; 
+    }
+}
+
+/* Screen Size: 320px & Below */  
+@media screen and (max-width: 320px) {
+    #ethos {
+        font-size: 2.4rem;
+        top: 75%;
+    }
+}
+
+/* Screen Size: 280px & Below */
+@media screen and (max-width: 280px) {
+    footer {
+        font-size: 1.2rem;
     }
 }
