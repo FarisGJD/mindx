@@ -20,6 +20,7 @@ body {
     background-image: linear-gradient(to right, #f1c2b0, #f1c2ae, #f0c2ae, #eec1ae,  #eebfac, #edbfac);  
     background-attachment: fixed;
     background-origin: initial;
+    position: realtive; 
 }
 
 /* Hero Image */
@@ -164,11 +165,11 @@ header a {
 }
 
 .guided-grid {
-    margin: 100px 400px 0 400px;
+    margin: 10rem 50rem 0 50rem;
     justify-content: center;
-    height: 65vh;
+    height: 75vh;
     display: grid;
-    column-gap: 50px;
+    column-gap: 5rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 150px 50px;
     grid-template-areas: "heading-box image-box"
@@ -194,8 +195,28 @@ header a {
 
 .image-box {
     grid-area: image-box; 
+} 
+
+#guided-flex-video {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
 }
 
+#guided-flex-video h3 {
+    color: #ffffff;
+    font-size: 6.5rem; 
+    font-family: Raleway, sans-serif;  
+    text-transform: uppercase; 
+    text-shadow:  #f7756f 3px 3px, #ffffff 6px 6px;
+    margin-bottom: 5rem;
+}
+
+#guided-flex-video p {
+    font-size: 2rem;
+    text-align: center;
+}
 /* Guided Meditations Images */
 
 .guided {
@@ -230,7 +251,7 @@ header a {
     box-shadow:  #ffffff 5px 5px, #f7756f 10px 10px, #ffffff 15px 15px, #f7756f 20px 20px, #ffffff 25px 25px; 
 }
 
-/* Guided Meditations Audio */
+/* Guided Meditations Audio & Video */
 
 audio {
     width: 40rem; 
@@ -238,6 +259,12 @@ audio {
 
 audio:hover{
     transform: scale(1.1);
+}
+
+iframe {
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: #ffffff 5px 5px, #f7756f 10px 10px, #ffffff 15px 15px, #f7756f 20px 20px, #ffffff 25px 25px;
 }
 
 /* Sign Up - Header & Eye Animation */
@@ -422,6 +449,24 @@ footer {
     .guided-meditations h2 {
         font-size: 12.5rem;
     }
+
+    .guided-grid {
+        margin-bottom: 200px;
+        grid-template-columns: 0.5fr;
+        grid-template-rows: 4fr;
+        grid-gap: 2rem;
+        justify-content: center;
+        grid-template-areas: "heading-box"
+        "paragraph-box"
+        "image-box"
+        "exercise-box";
+    }
+
+    .exercise-box {
+        margin-bottom: 500px; 
+    }
+
+
 }
 /* Screen Size: 768px & Below */ 
 @media screen and (max-width: 768px) {
