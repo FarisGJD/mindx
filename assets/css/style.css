@@ -127,7 +127,8 @@ header a {
     text-transform: uppercase; 
     color: #f7756f;
     text-shadow: #ffffff 12px 12px; 
-    margin-top: 100px;
+    margin: 100px 0 50px;
+
 }
 
 #intro-to-mbct {
@@ -195,9 +196,6 @@ header a {
     grid-area: image-box; 
 }
 
-.exercise-grid {
-    margin-bottom: 200px;
-}
 /* Guided Meditations Images */
 
 .guided {
@@ -235,7 +233,7 @@ header a {
 /* Guided Meditations Audio */
 
 audio {
-    width: 400px; 
+    width: 40rem; 
 }
 
 audio:hover{
@@ -417,20 +415,12 @@ footer {
     #ethos {
         top: 65%;
     }
-
-
 }
 
 /* Screen Size: 1024px & Below */ 
 @media screen and (max-width: 1024px) {
     .guided-meditations h2 {
         font-size: 12.5rem;
-    }
-
-    .guided-grid {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 }
 /* Screen Size: 768px & Below */ 
@@ -484,8 +474,8 @@ footer {
     }
 
     #ethos {
-        font-size: 2.8rem;
-        top: 68%;
+        font-size: 2.2rem;
+        top: 73%;
     }
 
     footer {
@@ -500,18 +490,18 @@ footer {
 /* Screen Size: 320px & Below */  
 @media screen and (max-width: 320px) {
     #ethos {
-        font-size: 2.4rem;
-        top: 75%;
+        font-size: 2rem;
+        top: 75%; 
     }
 }
 
 /* Screen Size: 280px & Below */
 @media screen and (max-width: 280px) {
     footer {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     #background-image {
-        background-size: 800px;
+        background-size: 700px;
     }
 }
