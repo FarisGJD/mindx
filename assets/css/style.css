@@ -582,6 +582,11 @@ footer {
         top: 73%;
     }
 
+    .lock {
+        font-size: 3rem !important;
+    }
+
+
     footer {
         font-size: 1.4rem;
     }
@@ -629,6 +634,10 @@ footer {
     #ethos {
         font-size: 2rem;
         top: 75%; 
+    }
+
+    .lock {
+        font-size: 1rem !important;
     }
 
     footer {
