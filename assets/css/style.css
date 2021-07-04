@@ -264,90 +264,29 @@ iframe {
     margin-top: 5rem;
 }
 
-/* Sign Up - Header & Eye Animation */
+
+/*  Sign Up Form  */ 
 
 #animation-header {
-    font-size: 10rem; 
+    font-size: 8rem; 
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     color: #f7756f; 
     text-shadow: #ffffff 8px 8px;
+    text-align: center;
 }
-
-#eye-animation {
-    width: 500px; 
-    height: 500px; 
-    background: #ffffff;
-    transform: rotate(45deg);
-    border-radius: 75% 0;
-    overflow: hidden; 
-    cursor: pointer;
-}
-
-#ball-animation {
-    width: 200px; 
-    height: 200px; 
-    background: #468C98;
-    border-radius: 50%;
-    border: 60px solid #2f2f2f; 
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%,-50%);
-}
-
-#shut-animation {
-    width: 710px; 
-    height: 400px; 
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%,-50%) rotate(-45deg);
-    z-index: 999;
-}
-
-#shut-animation span {
-    display: block; 
-    width: 100%; 
-    height: 20%; 
-    background: #f7756f; 
-    border-radius: 0 0 60% 60%;
-    transition: 0.4s all; 
-}
-
-#eye-animation:hover > #shut-animation span {
-    height: 100%; 
-
-}
-/* Sign Up Form  */ 
 
 .sign-up {
-    margin-top: 50px;
-    padding-left: 200px;
-    display: grid;
-    grid-template-columns: 1150px 600px;
-    grid-template-rows: 100px 50px;
-    grid-template-areas: "animation-header sign-up-form"
-    ". ."
-    "eye-animation ."; 
-}
-
-#animation-header {
-    grid-area: animation-header;
-}
-
-#eye-animation {
-    grid-area: eye-animation;
-    margin-left: 250px;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #sign-up-form {
-    grid-area: sign-up-form;
-}
-
-#sign-up-form {
-    width: 500px; 
-    height: 750px; 
+    width: 90rem; 
+    height: 65rem; 
     background: rgba(250, 124, 117, 0.9);
     border-radius: 3px;
     padding: 40px;
@@ -382,13 +321,11 @@ iframe {
 }
 
 .text-label {
-    height: 200px;
+    height: 10rem;
     font-family: roboto;   
 }
 
 #submit-button {
-    text-align: center;
-    margin-left: 90px;
     padding: 20px 40px;
     background-color: #ffffff;
     box-shadow: #ffffff 5px 5px 1px,  5px 5px 1px 2px #f7756f;
@@ -398,11 +335,63 @@ iframe {
     text-transform: uppercase;
 }
 
+#button-container {
+    text-align: center;
+}
+
 #submit-button:hover {
     background-color: #f7756f; 
     color: #ffffff;
     cursor: pointer;
 } 
+
+/* Sign Up - Eye Animation Code borrowed and adjusted from: https://www.youtube.com/watch?v=9Yk_bR0cFOc&t=180s */
+
+#eye-animation {
+    width: 50rem; 
+    height: 50rem; 
+    background: #ffffff;
+    transform: rotate(45deg);
+    border-radius: 75% 0;
+    overflow: hidden; 
+    cursor: pointer;
+}
+
+#ball-animation {
+    width: 20rem; 
+    height: 20rem; 
+    background: #468C98;
+    border-radius: 50%;
+    border: 60px solid #2f2f2f; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+#shut-animation {
+    width: 71rem; 
+    height: 40rem; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%) rotate(-45deg);
+    z-index: 999;
+}
+
+#shut-animation span {
+    display: block; 
+    width: 100%; 
+    height: 20%; 
+    background: #f7756f; 
+    border-radius: 0 0 60% 60%;
+    transition: 0.4s all; 
+}
+
+#eye-animation:hover > #shut-animation span {
+    height: 100%; 
+
+}
 
 /* Footer */ 
 
@@ -464,6 +453,17 @@ footer {
     }
 
 }
+
+/* Screen Size: 950px & Below */ 
+@media screen and (max-width: 950px) {
+    #animation-header {
+        font-size: 6.5rem;
+    }
+    
+    #sign-up-form {
+        width: 70rem;
+    }
+}
 /* Screen Size: 768px & Below */ 
 @media screen and (max-width: 768px) {
     #ethos   {
@@ -518,6 +518,32 @@ footer {
         margin-top: 5rem;
     }
 
+    #animation-header {
+        font-size: 7rem;
+    }
+    
+    #sign-up-form {
+        width: 50rem;
+    }
+
+
+#eye-animation {
+    width: 40rem; 
+    height: 40rem; 
+}
+
+#ball-animation {
+    width: 15rem; 
+    height: 15rem; 
+}
+
+#shut-animation {
+    width: 61rem; 
+    height: 35rem; 
+   
+}
+
+
 }
 
 /* Screen Size: 600px & Below */ 
@@ -563,6 +589,33 @@ footer {
     #guided-flex-video h3 {
         font-size: 5.5rem;
     }
+
+    #animation-header {
+        text-shadow: #ffffff 2px 2px;
+    }
+    
+    #sign-up-form {
+        width: 40rem;
+        height: 67rem;;
+    }
+
+
+#eye-animation {
+    width: 30rem; 
+    height: 30rem; 
+}
+
+#ball-animation {
+    width: 15rem; 
+    height: 15rem; 
+}
+
+#shut-animation {
+    width: 51rem; 
+    height: 25rem; 
+   
+}
+
 }
 
 
@@ -580,10 +633,6 @@ footer {
     #ethos {
         font-size: 2.2rem;
         top: 73%;
-    }
-
-    .lock {
-        display: none !important;
     }
 
     footer {
@@ -624,6 +673,32 @@ footer {
         font-size: 1.5rem;
         line-height: 20px;
     }
+
+    #animation-header {
+        font-size: 5rem;
+    }
+    
+    #sign-up-form {
+        width: 30rem;
+        height: 67rem;;
+    }
+
+
+#eye-animation {
+    width: 20rem; 
+    height: 20rem; 
+}
+
+#ball-animation {
+    width: 10rem; 
+    height: 10rem; 
+}
+
+#shut-animation {
+    width: 41rem; 
+    height: 20rem; 
+   
+}
 
    
 }
@@ -683,4 +758,21 @@ footer {
         height: 20rem;
         width: 20rem;    
     }
+
+
+#eye-animation {
+    width: 15rem; 
+    height: 15rem; 
+}
+
+#ball-animation {
+    width: 10rem; 
+    height: 10rem; 
+}
+
+#shut-animation {
+    width: 31rem; 
+    height: 20rem; 
+   
+}
 }
