@@ -165,13 +165,12 @@ header a {
 }
 
 .guided-grid {
-    margin: 10rem 50rem 0 50rem;
-    justify-content: center;
+    place-content: center;
+    justify-items: center;
     height: 75vh;
-    display: grid;
-    column-gap: 5rem;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 150px 50px;
+    display: grid; 
+    grid-template-columns: 0.5fr 0.1fr;
+    grid-template-rows: 15rem 15rem 5rem; 
     grid-template-areas: "heading-box image-box"
     "paragraph-box ."
     ". ."
@@ -184,13 +183,11 @@ header a {
 
 .paragraph-box {
     grid-area: paragraph-box; 
-    width: 50rem;
+    width: 65rem;
 }
 
 .exercise-box {
     grid-area: exercise-box; 
-    padding-top: 30px;
-    margin-top: 20px;
 }
 
 .image-box {
@@ -220,13 +217,13 @@ header a {
 /* Guided Meditations Images */
 
 .guided {
-    font-size: 40rem !important; 
+    font-size: 35rem !important; 
     color:  #ffffff; 
     text-shadow:  #f1c2b0 15px 15px
 }
 
 .fas {
-    font-size: 40rem !important;
+    font-size: 35rem !important;
     color:  #ffffff;
     margin-top: 40px;
     text-shadow: #f1c2b0 25px 25px; 
@@ -237,18 +234,18 @@ header a {
 }
 .square-icon-container {
     background-color: #f7756f;
-    height: 40rem;
-    width: 40rem;
+    height: 35rem;
+    width: 35rem;
     border-radius: 1rem;
-    box-shadow:  #ffffff 5px 5px, #f7756f 10px 10px, #ffffff 15px 15px, #f7756f 20px 20px, #ffffff 25px 25px; 
+    box-shadow:  #ffffff 5px 5px;
 }
 
 .circle-icon-container {
     background-color: #f7756f;
-    height: 40rem;
-    width: 40rem;
+    height: 35rem;
+    width: 35rem;
     border-radius: 50%;
-    box-shadow:  #ffffff 5px 5px, #f7756f 10px 10px, #ffffff 15px 15px, #f7756f 20px 20px, #ffffff 25px 25px; 
+    box-shadow:  #ffffff 5px 5px;
 }
 
 /* Guided Meditations Audio & Video */
@@ -262,9 +259,9 @@ audio:hover{
 }
 
 iframe {
-    margin-top: 50px;
     border-radius: 5px;
     box-shadow: #ffffff 5px 5px, #f7756f 10px 10px, #ffffff 15px 15px, #f7756f 20px 20px, #ffffff 25px 25px;
+    margin-top: 5rem;
 }
 
 /* Sign Up - Header & Eye Animation */
@@ -441,20 +438,20 @@ footer {
 @media screen and (max-width: 1200px) {
     #ethos {
         top: 65%;
-    }
+    }    
 }
 
 /* Screen Size: 1024px & Below */ 
 @media screen and (max-width: 1024px) {
     .guided-meditations h2 {
-        font-size: 12.5rem;
+        font-size: 11rem;
     }
 
+
     .guided-grid {
-        margin-bottom: 200px;
-        grid-template-columns: 0.5fr;
-        grid-template-rows: 4fr;
-        grid-gap: 2rem;
+        margin: 10rem 0 30rem 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.7fr 2fr; 
         justify-content: center;
         grid-template-areas: "heading-box"
         "paragraph-box"
@@ -462,10 +459,9 @@ footer {
         "exercise-box";
     }
 
-    .exercise-box {
-        margin-bottom: 500px; 
+    .paragraph-box {
+        text-align: center;
     }
-
 
 }
 /* Screen Size: 768px & Below */ 
@@ -503,8 +499,71 @@ footer {
     footer {
         flex-direction: column;
     } 
+
+    .guided-meditations h2 {
+        font-size: 8.5rem;
+        text-shadow: #ffffff 5px 5px; 
+    }
+
+    .intro-to-mbct > p {
+        font-size: 2rem;
+    }
+
+    .paragraph-box {
+        width: 50rem;
+        margin: 2rem 0;
+    }
+
+    .exercise-box {
+        margin-top: 5rem;
+    }
+
 }
 
+/* Screen Size: 600px & Below */ 
+@media screen and (max-width: 600px) {
+    .guided-meditations h2 {
+        font-size: 7rem;
+    }
+
+    .intro-to-mbct p {
+        font-size: 1.8rem; 
+    }
+
+    .paragraph-box {
+        width: 40rem;
+    }
+
+    .guided-grid h3 {
+        font-size: 5.5rem;;
+    }
+
+    .guided {
+        font-size: 30rem !important; 
+    }
+    
+    .fas {
+        font-size: 30rem !important;
+    }
+    
+    .square-icon-container {
+        height: 30rem;
+        width: 30rem;  
+    }
+    
+    .circle-icon-container {
+        height: 30rem;
+        width: 30rem;    
+    }
+
+    audio {
+        width: 30rem;
+    }
+
+    #guided-flex-video h3 {
+        font-size: 5.5rem;
+    }
+}
 
 
 /* Screen Size: 480px & Below */ 
@@ -530,6 +589,39 @@ footer {
     #background-image {
         background-size: 1000px; 
     }
+
+    .guided-meditations h2 {
+        font-size: 4rem;
+    }
+
+    .guided-meditations p {
+        font-size: 1.5rem;
+        line-height: 20px;
+    }
+
+    .guided-meditations h3 {
+        font-size: 4rem;
+    }
+
+    .paragraph-box {
+        width: 30rem;
+    }
+
+    .intro-to-mbct p {
+        font-size: 1.5rem;
+        line-height: 20px;;
+    }
+
+    #guided-flex-video h3 {
+        font-size: 4rem;
+    }
+
+    #guided-flex-video p {
+        font-size: 1.5rem;
+        line-height: 20px;
+    }
+
+   
 }
 
 /* Screen Size: 320px & Below */  
@@ -537,6 +629,14 @@ footer {
     #ethos {
         font-size: 2rem;
         top: 75%; 
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    #guided-flex-video h3 {
+        font-size: 3rem;
     }
 }
 
@@ -548,5 +648,35 @@ footer {
 
     #background-image {
         background-size: 700px;
+    }
+
+    .guided-meditations h3 {
+        font-size: 3rem;
+    }
+
+    .paragraph-box {
+        width: 25rem;
+    }
+
+    audio {
+        width: 20rem;
+    }
+
+    .guided {
+        font-size: 20rem !important; 
+    }
+    
+    .fas {
+        font-size: 20rem !important;
+    }
+    
+    .square-icon-container {
+        height: 20rem;
+        width: 20rem;  
+    }
+    
+    .circle-icon-container {
+        height: 20rem;
+        width: 20rem;    
     }
 }
