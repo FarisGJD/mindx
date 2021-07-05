@@ -1,59 +1,158 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# MIND**X**
 
-Welcome Faris Dhoot,
+![Preview](assets/readme-assets/responsive-design-example.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[View Live Website Here]( https://farisgjd.github.io/mindx/)
 
-## Gitpod Reminders
+# Table Of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. [Introduction](#introduction)
+2. [User Experience](#user-experience)
+    * [Site & User Goals](#site-&-user-goals)
+    * [User Stories](#user-stories)    
+3. [Development Planes](#development-planes) 
+    * [Strategy](#strategy)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
+    * [Surface](#surface)
+4. [Technologies Used](#tech-used)
+5. [Search Engine Optimization](#seo)
+6. [Bugs](#bugs)
+7. [Testing](#testing)
+8. [Validation](#validation)
+9. [Credits](#credits)
+9. [Aknowledgements](#aknowledgements)
 
-`python3 -m http.server`
+***
+# Introduction
 
-A blue button should appear to click: _Make Public_,
+Mental disorder is the leading cause of morbidity worldwide making it an accrescent field of interest within the medical and public spheres. Recognition of an individual’s psychological state as homogeneously significant to their physical is paramount to their overall wellbeing. This is especially true in the current climate. The impact of the Corona Virus has exponentially increased rates of mental health issues worldwide limiting the accessibility of medical services. Barriers in delivering traditional therapies have led individuals towards the pursuit of holistic solutions for their ailments such as meditation.
 
-Another blue button should appear to click: _Open Browser_.
+Studies show that as lockdown eases world over the demand for simple everyday meditative exercises is on the rise. MIND**X** or MINDX*ercise* is an online platform providing simple body/mind self-improvement techniques to inquisitive and novice meditators alike. Its ethos is based around the teachings of mindfulness ~ to live in the present. Its mission is to improve the overall wellbeing of an individual through visual and voiceover guided meditations. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+MIND**X** uses the philosophies underpinning mindfulness as a Cognitive Behavioural Therapy (CBT) which is a studied, proven and effective treatment for mental health illnesses. By design MIND**X** increases the accessibility of therapies to larger more diverse audiences when compared to clinical settings. It is unique as it focuses on mindfulness coupled with CBT to create Mindfulness-Based Cognitive Therapy (MBCT) which is unheard of in the market place.
 
-A blue button should appear to click: _Make Public_,
+[Back To Top](#mindx)
 
-Another blue button should appear to click: _Open Browser_.
+***
+# User Experience 
+## Site & User Goals 
+### Site Goals
+-	Help individuals improve their overall wellbeing, specifically mental health.
+-	Teach users the fundamentals of mindfulness through video and voiceover guided meditations.
+-	Produce a minimalistic, intuitive, accessible and interactive website in terms of navigation, content and convenience. 
+-	Enable users to sign up for an account. 
+-	Develop a core client base for future updates and releases.
+### User Goals 
+-	Alleviate ailments associated with sporadic or chronic mental health disorders.
+-	Establish and maintain daily meditative practices.
+-	Access exercises while at home or on the go.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## User Stories 
+### First Time Visitor Goals 
+1.	As a First Time Visitor, I want to instantly understand the main purpose of the site so that I learn more about the organisation. 
+2.	As a First Time Visitor, I want an intuitive navigational experience so that I can easily find content. 
+3.	As a First Time Visitor, I want access to social media links to get a wider view of the organisation as to determine their legitimacy. 
+### Returning Visitor Goals 
+1.	As a Returning Visitor, I want to access video/voice over lessons to improve my wellness.
+2.	As a Returning Visitor, I want to compare the sites offerings to competitors so that I can ascertain their unique selling proposition. 
+3.	As a Returning Visitor, I want to find the organisations contact details for any questions I have regarding their exercises  
+### Frequent User Goals 
+1.	As a Frequent User, I want to conveniently access the lessons that apply to my ailments the most. 
+2.	As a Frequent User, I want to check if there are any newly added guided meditations.
+3.	As a Frequent User, I want to sign up for an account so that I can access more features, newsletters and am emailed about major updates, launches or changes to the website. 
 
-To log into the Heroku toolbelt CLI:
+[Back To Top](#mindx)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+***
+# Development Planes 
+## Strategy
+The overarching strategy behind MIND**X** is to teach users the fundamental principles of mindfulness as a form of CBT. This is in a bid to improve their overall wellbeing and as a result develop and increase a client base for future releases. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+MIND**X** will focus on the following user attributes acquired from various cross-sectional clinical studies regarding meditative app usage: 
 
-## Updates Since The Instructional Video
+**Demographics**
+-	Ages 18 – 65c
+-	All genders (mainly females)
+-	All ethnicities and religions 
+-	Suffering with a mental illness mainly: anxiety, depression, stress & sleep disorders 
+-	Suffering with physical health issues mainly: high blood pressure, chronic pain, cancer & diabetes 
+-	Tech literate and illiterate 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Psycographics** 
+-	Active interest in meditation 
+-	Novice meditators
+-	Eager to learn new things 
+-	Health conscious 
+-	Fitness lovers 
+-	Looking for lifestyle changes
+-	Avoidance coping 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The website *needs* to enable the **User** to: 
+-	Find information regarding mindfulness & meditation 
+-	Correlate mindfulness as a form of CBT 
+-	Easily access video/voice over content 
+-	Create an account
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The website *needs* to enable the **Client** to: 
+-	Develop an online presence by creating a custom website. 
+-	Cultivate and increase client base through unique offerings.
+-	Showcase a variety of guided meditations.
+-	Encourage users to create an online account. 
+-	Have a high level of accessibility. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**Trade-off Equation: Importance VS Viability/Feasability**
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+A trade-off analysis was conducted to rank opportunities based on user needs and business objectivise. Projections are scored in terms of their importance versus their viability/feasibility. The scatter graph shows that 4 out of 5 possibilities can and should be implemented. Accessibility is an issue as MIND**X** is currently web based. It is industry standard for organisations to be both web and app-based meaning MIND**X** needs to be as responsive on different devices as possible. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Tradeoff Analysis Graph](assets/readme-assets/mindx-tradeoff-chart.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+[Back To Top](#mindx)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+***
+# Scope
+The initial public offering or phase one of MIND**X** release strategy is to build an intuitive **Minimal Viable Product** in regards to content, design, accessibility and interactivity. A scope was defined through an agile methodology based off of the strategy and broken down into content requirements and functional specifications. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+**Content Requirements:**
+-	Visual iconography relating to mindfulness, meditation and the wider topics surrounding the subject.
+-	MIND**X** ethos.
+-	MBCT.
+-	Minimum of four (5 – 15 min) meditative exercises, must include:
+    * Breathing.
+    * Sitting. 
+    * CBT meditations.
+    * Sleeping. 
+-	Minimal design.
+-	Call to action and signup form. 
+-	Contact information. 
+-	Links to social media account.
 
----
+**Functional Specifications:**
+-	Speedy loading of the website and its content.  
+-	Simple and easy navigation. 
+-	Interactive design. 
+-	Fully functioning video/audio lessons. 
+-	Active social media links. 
+-	Operative signup form. 
+-	Accessible on a range of devices. 
+-	Search Engine Optimisation. 
 
-Happy coding!
+[Back To Top](#mindx)
+
+***
+# Structure
+MIND**X**'s highest priority is to teach users body/mind self-improvement techniques, therefore simple and intuitive access to said techniques is of upmost importance. A hierarchical tree structure is used to organise the website as it reduces complexity, creating a linear narrative. Even though tree structures pose issues in regards to mobile devices, methods have been implemented to remedy this such as a high level of responsivness.
+
+![Hierarchical Tree Structure](assets/readme-assets/site-structure.png)
+
+**Interaction Design**
+
+index.html:
+-	Header – introduces MIND**X** official logo and familiarises the user with the site’s navigational planes, leveraging their prior experience. 
+-	Background Image & Ethos – reinforces the identity of the website and creates and eye-catching landing page.  
+-	Footer – provides social media and contact details so that when the user concludes they can get in contact.  
+
+meditation.html:
+
