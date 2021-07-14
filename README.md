@@ -293,3 +293,57 @@ Search Engine Optimisation techniques have been implemented, improving the quali
 -	 The icons used had a predefined maximum font size (48px) which was smaller than preferred so the !important rule was called to overcome this. 
 -	Text shadow of white were used on each letter of the logo and ethos which proved to be problematic when the font reaches a certain size so it was removed. 
 -	Guided meditations file size was too large for GitPod to host, so Git Large File Storage was used to do so. 
+
+[Back To Top](#mindx)
+
+***
+# Testing 
+
+[Back To Top](#mindx)
+
+***
+
+# Validation 
+The code was put through online validation and responsiveness tools to determine its competences. The tools used were: 
+
+## HTML Validator
+**Home Page**
+
+The home page had a few errors as seen below. The first was a button being nested inside an anchor tag which was recitifed by removing the button tag an creating a button style in CSS. The second issue was a spelling mistake which was also addressed. 
+
+![Home Page Validator](assets/readme-assets/index-validator.png) 
+
+![Home Page Corrections](assets/readme-assets/index-corrections.png) 
+
+**Guided Meditation Page** 
+
+The guided meidtations page has errors as seen below. The first was an inncorect type attribute and value pair given to each audio tag. The second and third were spelling mistake and stray closing tags. The last was the iframes having unaplicable attributes aswell as content intended for accesibility between the opening and closing tag not being allowed. 
+
+![Guided Meditation Validator](assets/readme-assets/guided-validator.png) 
+
+![Guided Meditation Validator](assets/readme-assets/guided-validator-2.png) 
+
+![Guided Meditation Validator](assets/readme-assets/guided-validator-3.png) 
+
+![Guided Meditation Corrections](assets/readme-assets/guided-corrections.png) 
+
+
+**Sign Up Page** 
+
+The signup pages errors consisted of stray tags as seen below. 
+
+![Sign Up Validator](assets/readme-assets/sign-validator.png)
+
+![Sign Up Corrections](assets/readme-assets/sign-corrections.png)
+
+## CSS Validator 
+The CSS code returned with no errors or warnings. 
+
+![CSS Validator](assets/readme-assets/css-corrections.png)
+
+## Google Mobile-Freindly Test 
+Goolgle mobile freindly results came back as positive as seen below. 
+
+![Google Mobile Validator](assets/readme-assets/google-mobile-freindly.png)
+
+
