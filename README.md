@@ -270,8 +270,7 @@ The images used in MIND**X** are connected to the field on mindfulness and the w
 -	Lighthouse – website performance review. 
 -	JPEG Optimiser – image condenser.
 -	Balsamic – wireframes. 
--	HTML Formatter – formatting HTML code.
--	CSS Beautifier – beautifying CSS code. 
+-	Web Formatter – formatting HTML & CSS code.
 -	Google Search Console – search engine optimization. 
 -	XML Sitemaps – search engine optimization. 
 -	Youtube2mp3 Converter – convert YouTube videos into audio. 
