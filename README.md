@@ -255,3 +255,42 @@ The images used in MIND**X** are connected to the field on mindfulness and the w
 
 ***
 # Technologies Used 
+-	HTML5 – programming language to create basic site structure.   
+-	CSS3 (Flex & Grid) – programming language to add styling to site. 
+-	Google Fonts – typography & icons import.
+-	Font Awesome – icons import.
+-	Adobe Colour Wheel – colour pallet generator.
+-	Coolors – colour pallet generator. 
+-	GitHub – cloud based hosting service, managing repositories. 
+-	GitPod – integrated development environment used to develop project. 
+-	Git – version control tool. 
+-	Git Large File Storage – used to store files that are too large for GitPod, improving performance. 
+-	GitHub Pages – used to deploy website. 
+-	Google Chrome Developer Tools – used for debugging.  
+-	Lighthouse – website performance review. 
+-	JPEG Optimiser – image condenser.
+-	Balsamic – wireframes. 
+-	HTML Formatter – formatting HTML code.
+-	CSS Beautifier – beautifying CSS code. 
+-	Google Search Console – search engine optimization. 
+-	XML Sitemaps – search engine optimization. 
+-	Youtube2mp3 Converter – convert YouTube videos into audio. 
+-	Favicon – used to create favicon. 
+
+[Back To Top](#mindx)
+
+***
+# Search Engine Optimization
+Search Engine Optimisation techniques have been implemented, improving the quality and quantity of website traffic to MINDX from search engines.  
+-	Meta Description and Keyword tags have been used in the head of each page, fostering better relationships between MINX and search engines. 
+-	Crawlable Links. 
+-	Google Search Console and XML Sitemap creating better understating between the site and search engines.
+
+[Back To Top](#mindx)
+
+***
+# Bugs & Issues
+-	The background image had extremely slow loading times due to two determined factors. The first being the file size which was compressed using online tools. The second was the use of absolute file paths which had incompatibility issues with GitHub Pages so a relative path was used instead. 
+-	 The icons used had a predefined maximum font size (48px) which was smaller than preferred so the !important rule was called to overcome this. 
+-	Text shadow of white were used on each letter of the logo and ethos which proved to be problematic when the font reaches a certain size so it was removed. 
+-	Guided meditations file size was too large for GitPod to host, so Git Large File Storage was used to do so. 
