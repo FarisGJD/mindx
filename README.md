@@ -21,8 +21,9 @@
 6. [Bugs](#bugs)
 7. [Testing](#testing)
 8. [Validation](#validation)
-9. [Credits](#credits)
-9. [Acknowledgements](#aknowledgements)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#aknowledgements)
 
 ***
 # Introduction
@@ -346,4 +347,73 @@ Goolgle mobile freindly results came back as positive as seen below.
 
 ![Google Mobile Validator](assets/readme-assets/google-mobile-freindly.png)
 
+[Back To Top](#mindx)
 
+***
+# Deployment
+The code for this project was created, edited and previewed on GitPod, a cloud-based IDE. Git was used as a version control tool to push the code into a premade GitHub repository which hosts the workspace and project. The project is subsequently deployed using GitHub Pages. The process to do so is as follows:
+1.	Locate the relevant GitHub repository.
+2.	In the tab below the repository name click settings where you will be redirected to a new page. 
+3.	The tab on the right-hand side contains several options, the desired is pages. 
+4.	In the source section choose master from the first drop-down menu titled branch, then root from the second drop-down menu with a folder icon and finally save. 
+5.	Once the process is complete the live URL will be displayed above with the text “Your site is published at”. 
+
+Successively this code can be cloned or forked from the same GitHub repository. 
+
+## Repository Forking 
+Forking a repository simply means creating a copy of the original to be viewed and edited without effecting the source. To do so: 
+1.	In GitHub locate the relevant repository. 
+2.	In the top right-hand side, underneath the user icon click the fork button. 
+3.	The forked repository should load and save to the GitHub account it was created on. 
+
+## Repository Cloning 
+GitHub repositories exist remotely online. Cloning a repository means you create a local copy on your computer and sync between the two locations. To do so: 
+1.	Navigate to the main page of the desired repository. 
+2.	Above the list of files click on the green code button. 
+3.	You will be given the option to clone with HTTPS, SSH & GitHub CLI, chose the desired option, in this case desktop is where the clone will be housed. 
+4.	Finally follow the prompts in GitHub desktop to complete the process. 
+
+
+[Back To Top](#mindx)
+
+***
+# Credit 
+
+Information regarding the content of the website and any statistics or claims mentioned are sourced from: 
+-	Wikipedia – mindfulness. 
+-	Wikipedia – mindful-based-cognitive-therapy. 
+-	NHS – cognitive behavioural therapy. 
+-	NHS – mindfulness  
+-	Headspace – guided meditations
+-	JMIR Publications – characteristics and usage patterns among 1251 paid subscribers of the calm meditation app: cross sectional survey. 
+-	BMC Research – effectiveness of using a meditation app in reducing anxiety and improving well-being during the COVID-19 pandemic.
+
+Guided meditations were taken from YouTube and converted into audio or imbedded as videos. The source for each exercise is: 
+-	Epworth Health Care (Breathing) 
+-	MyLife (Body Scan)
+-	Mark Williams (Sitting)
+-	Great Meditation (Sleep)
+-	Goodful (Start The Day, Anxiety & Depression) 
+-	Headspace (Stress) 
+-	The Honest Guys (Mindfulness) 
+-	Jessica Richburg (Yoga) 
+
+Code for the interactive eye on hover was taken and modified/customised from YouTube: 
+-	Dark Code
+
+General code help, inspiration and resources: 
+-	Love Running Walkthrough Project 
+-	W3S
+-	CSS-Tricks
+-	Stack Overflow 
+-	Free Code Camp 
+-	Web Dev Simplified (YouTube)
+-	Dev Ed (YouTube) 
+-	Kevin Powell (YouTube) 
+-	Easy Tutorials (YouTube) 
+
+[Back To Top](#mindx)
+
+***
+# Acknowledgements
+I would like to thank my mentor and the slack community for helping me throughout this process. A special thank you goes to the student care team who have accommodated my special circumstances.  
