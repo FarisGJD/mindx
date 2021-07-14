@@ -73,7 +73,7 @@ The overarching strategy behind MIND**X** is to teach users the fundamental prin
 MIND**X** will focus on the following user attributes acquired from various cross-sectional clinical studies regarding meditative app usage: 
 
 **Demographics**
--	Ages 18 – 65c
+-	Ages 18 – 65
 -	All genders (mainly females)
 -	All ethnicities and religions 
 -	Suffering with a mental illness mainly: anxiety, depression, stress & sleep disorders 
@@ -147,7 +147,7 @@ MIND**X**'s highest priority is to teach users body/mind self-improvement techni
 
 ![Hierarchical Tree Structure](assets/readme-assets/site-structure.png)
 
-Even though the site is currently a minimal viable product meaning a modest amount of information, three separate pages are needed for future manageability. MINDX has specific content (helpful articles, games & downloadable items) it needs to add to each section. This design deliberately follows the teachings of mindfulness ~ living in the present as to make each page unique and the primary focus of the user. 
+Even though the site is currently a minimal viable product meaning a modest amount of information, three separate pages are needed for future manageability. MINDX has specific content (helpful articles, games & downloadable items) it needs to add to each section. Furthermore this design deliberately follows the teachings of mindfulness ~ living in the present as to make each page unique and the primary focus for the user. 
 
 
 index.html:
@@ -164,14 +164,14 @@ guided-meditation.html:
 sign-up.html:
 -	Header – creates uniformity and establishes conventions. 
 -	Call To Action Signup Form – allows users to create an account with MINDX in a bid to develop a core client base.  
--	Animated Image – creates interest around the page whilst strengthening the brand. 
+-	Interactive Image – creates interest around the page whilst strengthening the brand. 
 -	Footer – gives another opportunity to get in touch and explore.   
 
 [Back To Top](#mindx)
 
 ***
 # Skeleton 
-Wireframes were created using Balsamic to determine the basic navigation and interface design of the site. It is important to give form to function meaning the meditative lessons need to speak for themselves. A minimalistic design in terms of navigation and content is employed accompanied by engaging images and key text. Market leading competitors such as Headspace, Calm & Brainfm have adopted similar methodologies so it is important to leverage user’s prior experience. The site will utilise progressive disclosure which is especially important when learning meditation as this is deemed the best way an individual can absorb and make meditation into a habit. 
+Wireframes were created using Balsamic to determine the basic navigation and interface design of the site. It is important to give form to function meaning the meditative lessons need to speak for themselves. A minimalistic design in terms of navigation and content is employed accompanied by engaging images and key text. Market leading competitors such as Headspace, Calm & Brainfm have adopted similar methodologies so it is important to leverage user’s prior experience. The site will utilise progressive disclosure which is especially important when learning meditation as this is deemed the best way an individual can absorb and turn meditation into a habit. 
 
 **Balsamic Wireframe:**
 
@@ -191,5 +191,67 @@ Wireframes were created using Balsamic to determine the basic navigation and int
 
 ![Site Wireframe](assets/readme-assets/mindx-wireframe/phone-signup.png)  
 
+[Back To Top](#mindx)
 
+***
+# Surface
 
+## Colour Scheme  
+The colour story behind MIN**X** was inspired from the background image used on the Home page; a peach (#f1c2b0) background leads with accents of “brain pink” (#f7756f) to complement. White (#ffffff) was later injected to provide a dynamic colour scheme. Finally light blue (#468C98) was introduced on the Sign-Up page as a kind of tease for future releases and colour story. 
+![Color Scheme](assets/readme-assets/mindx-color-scheme.png)
+
+## Typography
+Three different fonts are used throughout the website for different connotations, creating a strong font design. The two main pairings are Raleway and Roboto which are both sans-serif fonts that complement each other. Both have an extensive font family meaning they have a variety of thin and bold choices giving a good contrast. For example, Raleway (900 weight) is used for the logo, ethos and main headings, capturing the user’s attention while Roboto (300 weight) is used for the body text as the letter form works well together. Oswald (500 weight) another sans-serif font is used solely for the navigation items as to make the stand out from the rest of the information.
+
+## Imagery
+The images used in MIND**X** are connected to the field on mindfulness and the wider topics surrounding it. The landing page uses a high-fidelity image of a brain meant to immediately capture the user’s attention. Ideally the remaining images would have been the same quality but due to resource constraints icons were used. This said text-shadows were used to tie the image together as to be cohesive. 
+
+## Features
+**Header**
+ -	Logo – introduces MIND**X** identity and initiates the user’s discovery phase where they begin to ask questions about the brand.
+-	Navigation Links – facilitates the user’s exploration of the site through three clearly defined sections. 
+-	Call To Action – gives users visual que to sign up to MIND**X** increasing client base and informing them about future releases.  
+
+![Header](assets/readme-assets/header.png)
+
+**Footer**
+-	Social Media Links – allows users to view MIND**X** as a whole outside of the context of the web app. 
+-	Contact Information – permits users to contact MIND**X** for any questions relating to the exercises or general information. 
+-	Copyright – protects MINDX intellectual property. 
+
+![Footer](assets/readme-assets/footer.png)
+
+**index.html** 
+-	Background Image – an impactful and eye-catching image welcoming the user to the site and teasing what is ahead.
+-	Ethos – text accompanying the background image, reinforcing what MIND**X** is about and what the user should expect moving forward. 
+
+![Home Page](assets/readme-assets/home-page.png)
+
+**guided-meditations.html**
+•	Guided Meditation Introduction – defines the founding concepts that make MIND**X** unique such as mindfulness, MBCT and guided meditations that work their way up in difficulty and applicability. 
+
+![Intro MBCT](assets/readme-assets/intro-to-mbct.png)
+
+•	Exercises – ten guided exercises that are comprised of a title, introductory paragraph, video/audio exercise and an image. This type of progressive disclosure is used to give a brief overview of what each exercise is before engaging with the actual instructional meditation. This allows the user to access their most relevant exercises for their specific needs. 
+
+![Guided Meditations](assets/readme-assets/exercises.png)
+
+**sign-up.html** 
+-	Signup Form – gives users the chance to sign up to MINDX increasing client base and updating them about future releases.  
+
+![Sign Up Form](assets/readme-assets/sign-up-form.png)
+
+-	Interactive Image – familiarises users with what they should expect for future releases. MINDX will make more interactive interactions. 
+
+![Sign Up Form](assets/readme-assets/responsive-image.png)
+
+## Features To Implement
+-	Useful Articles – links to external peer reviewed papers and official bodies relating to the wider topics surrounding the field. 
+-	Inspirational Quotes – a random inspirational quote generator. 
+-	Colouring Pages – downloadable mindful colour pages used for relaxation and focus. 
+-	Games – mindful and meditative games which would increase and sustain site traffic. 
+
+[Back To Top](#mindx)
+
+***
+# Technologies Used 
