@@ -413,6 +413,15 @@ Goolgle mobile freindly results came back as positive as seen below.
 
 ![Google Mobile Validator](assets/readme-assets/google-mobile-freindly.png)
 
+## Lighthouse 
+Lighthouse was used to test and improve the quality of MINDX. From its results accessibility needed addressing as the signup button was deemed to have average contrast. This said through various testing parameters this was deemed to be inaccurate and was left as is. Finally, performance was also an issue as the background image loading time was a second or two longer than desired. This was also left as is since compressing the image further would cause distortion meaning an opportunity cost was made. 
+
+![Lighthouse](assets/readme-assets/lighthouse-v.png)
+
+![Lighthouse2](assets/readme-assets/lighthouse-v2.png)
+
+![Lighthouse2](assets/readme-assets/lighthouse-v3.png)
+
 [Back To Top](#mindx)
 
 ***
