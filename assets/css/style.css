@@ -420,12 +420,17 @@ footer a {
 /* Screen Size: 1200px & Below */
 @media screen and (max-width: 1200px) {
     #ethos {
-        top: 68%;
+        top: 65%;
+        font-size: 5rem;
     }
 }
 
 /* Screen Size: 1024px & Below */
 @media screen and (max-width: 1024px) {
+    #ethos {
+        font-size: 4.5rem;
+    }
+
     .guided-meditations h2 {
         font-size: 11rem;
     }
@@ -537,6 +542,10 @@ footer a {
 
 /* Screen Size: 600px & Below */
 @media screen and (max-width: 600px) {
+    #ethos {
+        font-size: 3.5rem;
+    }
+
     .guided-meditations h2 {
         font-size: 7rem;
     }
