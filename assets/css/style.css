@@ -448,8 +448,15 @@ footer a {
     }
 
     .paragraph-box {
+        width: 50rem;
+        margin: 2rem 0;
         text-align: center;
     }
+
+    .exercise-box {
+        margin-top: 5rem;
+    }
+
 }
 
 /* Screen Size: 950px & Below */
@@ -505,15 +512,6 @@ footer a {
 
     .intro-to-mbct > p {
         font-size: 2rem;
-    }
-
-    .paragraph-box {
-        width: 50rem;
-        margin: 2rem 0;
-    }
-
-    .exercise-box {
-        margin-top: 5rem;
     }
 
     #animation-header {
