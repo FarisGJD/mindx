@@ -27,7 +27,7 @@ body {
 #background-image {
     background: url("../images/hero-imageS.jpg") center center no-repeat;
     width: 100vw;
-    min-height: 96vh;
+    min-height: 97vh;
     background-size: cover;
     position: relative;
 }
@@ -37,6 +37,7 @@ body {
 #logo {
     font-family: Raleway, sans-serif;
     font-size: 6rem;
+    text-transform: uppercase;
 }
 
 #logo span {
@@ -219,16 +220,11 @@ header a {
 .guided {
     font-size: 35rem !important;
     color: #ffffff;
-    text-shadow: #f1c2b0 15px 15px;
 }
-/* 
-.fas {
-    font-size: 35rem !important;
-    color: #ffffff;
-    margin-top: 40px;
-    text-shadow: #f1c2b0 25px 25px;
-} */
 
+.far {
+    margin-left: 5px;
+}
 .square-icon-container {
     background-color: #f7756f;
     height: 35rem;
@@ -420,16 +416,13 @@ footer a {
 /* Screen Size: 1200px & Below */
 @media screen and (max-width: 1200px) {
     #ethos {
-        top: 65%;
-        font-size: 5rem;
+        top: 68%;
+        font-size: 4.7rem;
     }
 }
 
 /* Screen Size: 1024px & Below */
 @media screen and (max-width: 1024px) {
-    #ethos {
-        font-size: 4.5rem;
-    }
 
     .guided-meditations h2 {
         font-size: 11rem;
@@ -461,6 +454,10 @@ footer a {
 
 /* Screen Size: 950px & Below */
 @media screen and (max-width: 950px) {
+    #ethos {
+        font-size: 3.9rem;
+    }
+
     #animation-header {
         font-size: 6.5rem;
     }
@@ -471,11 +468,6 @@ footer a {
 }
 /* Screen Size: 768px & Below */
 @media screen and (max-width: 768px) {
-    #ethos {
-        font-size: 4rem;
-        top: 70%;
-    }
-
     .lock {
         font-size: 5rem !important;
     }
