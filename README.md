@@ -299,6 +299,72 @@ Search Engine Optimisation techniques have been implemented, improving the quali
 
 ***
 # Testing 
+Each section was tested for responsiveness during and after completion of the site. To do this Google Chrome Developer Tools was used to inspect functionality by examining the site through various predefined device breakpoints as well as overall responsiveness.  Below are examples of what each section was tested for: 
+
+**Header** 
+-	Logo redirects to home page. 
+-	Links forward to corresponding pages.
+-	Active links signifier responds to correct pages. 
+-	Call to action sign up button hover effect works. 
+
+**Footer** 
+-	Social media links redirect in a new tab to corresponding pages as well as aria-labels being read correctly.
+-	Contact email address, when clicked opens the users preferred mailing software. 
+
+**index.html**
+-	Background image loads quickly without loss of quality. 
+-	Lock icon loads instead of and before predefined text alternative (lock_open) as well as screen readers not reading out text alternative by using aria-hidden attribute. 
+
+**guided-meditations.html**
+-	Sticky header works and fits the space between each exercise so that the user can access it.
+-	The right aligned paragraph loads to the correct side. 
+-	Aria-hidden attributes for icons work on screen readers as to not confuse or waste impaired user’s time. 
+-	Each video/audio exercise loads and can be accessed immediately.
+-	Each exercise has controls is muted, loops and is responsive. 
+
+**sign-up.html**
+-	Signup form button responds to hover animation. 
+-	Interactive eye responds to hover and aria-hidden operates. 
+
+## Device Testing 
+To make the site responsive the max-width attribute was used to create popular breakpoints ranging from 1200px – 280px. This said since MINDX implements a garish design in terms of text and image size, creating the site desktop first proved to cause issues in terms of responsiveness. This is because much of the text and icons were programmed at capacity meaning new breakpoints (rather than the pre-defined norm) needed to be added as to function appropriately on different device sizes. 
+
+For example, the home page ethos needed a different font size at nearly every new and predefined breakpoint. Furthermore, as the ethos used a display of absolute to position itself, precision was also an issue; if the screen size deviated slightly the text would overlap with other elements. This meant that its position or top and bottom “coordinates” needed to be adjusted accordingly. 
+The guided meditation exercises also needed tweaking since they used a display grid to position themselves. This meant that the traditional method of responsiveness (box-model) wouldn’t predominantly apply and that specific grid templates needed to be used instead. For example, at the 1024 px breakpoint the grid display needed to be changed from a row into a column. 
+
+Finally, the signup page interactive eye used a position of absolute similar to the ethos which meant responsiveness was an issue at the 480px breakpoint. Part of the animation would stretch over its whole column which meant it had to be removed which solved the issue. 
+
+## Browser Testing 
+The site was tested on the following browsers to check for compatibility: 
+
+-	Firefox
+-	Chrome
+-	Safari
+
+All browsers had no issues except for Safari with absolutely positioned element. This was remedied by changing respective font sizes and positions as mentioned previously. 
+
+## Peer Review Testing 
+Family members and colleagues (through slack) were asked to access the project through various means. The feedback was: 
+-	Safari had issues with ethos and interactive eye which was determined to be their absolute positioning. 
+-	The navigation links that used a line-height property to align themselves with the logo. This was causing issues with the “pseudo” button (see validation) to be larger than desired. This was remedied by using a margin-top to align instead.
+-	The footer links were not opening on a new page on Firefox due to a spelling mistake on the target=”_blank” attribute and value pair. 
+
+
+## User Stories Testing 
+As a First Time Visitor: 
+1.	When loading the site, the user is greeted with a background image accompanied by the ethos. When combined both give a succinct view of MINDX and its offerings – brain image and “exercise your mind” alludes to a site that focuses of mind training.  
+2.	The navigation bar is titled in a way that explains its purpose (e.g., Guided Meditations meaning exercises) as well as leveraging the users prior experience with tree structured sites. 
+3.	The footer is located on every page giving the user ample opportunity to determine the sites legitimacy through a “compare and contrast” evaluation. 
+
+As a Returning Visitor: 
+1.	Video and voice over lessons use a grid system accompanied by text and images to clearly show the user what each stands for. Furthermore, the exercises utilise Git Large File Storage meaning they load and can be accessed quickly. 
+2.	Again, the site utilises a tree structure meaning each page is the focus to the user. When comparing MINDX offerings to competitors the user has no distractions and can do so comfortably. 
+3.	Contact email is embedded in every page and uses the mailto attribute which opens the users preferred mailing software. 
+
+As a Frequent User: 
+1.	The site is highly accessible in terms of device and optimisation meaning the user can access their preferred exercise wherever and whenever they please. 
+2.	The user can sign up to MINDX where they will be informed about any newly added guided meditations, features, newsletters and updates. 
+
 
 [Back To Top](#mindx)
 

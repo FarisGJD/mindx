@@ -25,9 +25,9 @@ body {
 /* Hero Image */
 
 #background-image {
-    background: url("../images/hero-imageS.jpg") center center no-repeat;
+    background: url("../images/background-imageS.jpg") center center no-repeat;
     width: 100vw;
-    min-height: 97vh;
+    height: 97vh;
     background-size: cover;
     position: relative;
 }
