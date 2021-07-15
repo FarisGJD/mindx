@@ -29,6 +29,7 @@ body {
     width: 100vw;
     min-height: 96vh;
     background-size: cover;
+    position: relative;
 }
 
 /* logo */
@@ -67,8 +68,7 @@ header a {
     font-family: Oswald, sans-serif;
 }
 
-.nav-hov:hover,
-.active {
+.nav-hov:hover, .active {
     border-bottom: 3px solid #f7756f;
 }
 
@@ -127,7 +127,7 @@ header a {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     color: #f7756f;
-    text-shadow: #ffffff 12px 12px;
+    text-shadow: #ffffff 5px 5px;
     margin: 100px 0 50px;
 }
 
@@ -221,13 +221,13 @@ header a {
     color: #ffffff;
     text-shadow: #f1c2b0 15px 15px;
 }
-
+/* 
 .fas {
     font-size: 35rem !important;
     color: #ffffff;
     margin-top: 40px;
     text-shadow: #f1c2b0 25px 25px;
-}
+} */
 
 .square-icon-container {
     background-color: #f7756f;
@@ -257,7 +257,7 @@ audio:hover {
 
 iframe {
     border-radius: 5px;
-    box-shadow: #ffffff 5px 5px, #f7756f 10px 10px, #ffffff 15px 15px, #f7756f 20px 20px, #ffffff 25px 25px;
+    box-shadow: #f7756f 5px 5px, #ffffff 10px 10px;
     margin-top: 5rem;
 }
 
@@ -268,7 +268,7 @@ iframe {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     color: #f7756f;
-    text-shadow: #ffffff 8px 8px;
+    text-shadow: #ffffff 3px 3px;
     text-align: center;
 }
 
@@ -420,7 +420,7 @@ footer a {
 /* Screen Size: 1200px & Below */
 @media screen and (max-width: 1200px) {
     #ethos {
-        top: 65%;
+        top: 68%;
     }
 }
 
@@ -461,6 +461,7 @@ footer a {
 @media screen and (max-width: 768px) {
     #ethos {
         font-size: 4rem;
+        top: 70%;
     }
 
     .lock {
