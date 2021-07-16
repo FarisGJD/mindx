@@ -12,16 +12,34 @@
     * [User Stories](#user-stories)    
 3. [Development Planes](#development-planes) 
     * [Strategy](#strategy)
+        * [Demographics](#demographics)
+        * [Psychographics](#psychographics)
     * [Scope](#scope)
+        * [Content Requirements](#content-requirements)
+        * [Functional Specifications](#functional-specifications)
     * [Structure](#structure)
     * [Skeleton](#skeleton)
     * [Surface](#surface)
+        * [Colour Scheme](#colour-scheme)
+        * [Typography](#typograpnhy)
+        * [Imagery](#imagery)
+        * [Features](#features)
 4. [Technologies Used](#tech-used)
 5. [Search Engine Optimization](#seo)
-6. [Bugs](#bugs)
+6. [Bugs & Issues](#bugs)
 7. [Testing](#testing)
+    * [Device Testing](#device-testing)
+    * [Browser Testing](#browser-testing)
+    * [Peer Review Testing](#peer-review-testing)
+    * [User Stories Testing](#user-stories-testing)
 8. [Validation](#validation)
+    * [HTML Validator](#html-validator)
+    * [CSS Validator](#css-validator)
+    * [Google Mobile-Freindly Test](#google-mobile-freindly-test)
+    * [Lighthouse](#lighthouse)
 9. [Deployment](#deployment)
+    * [Repository Forking](#repository-forking)
+    * [Repository Cloning](#repository-cloning)
 10. [Credits](#credits)
 11. [Acknowledgements](#aknowledgements)
 
@@ -73,7 +91,7 @@ The overarching strategy behind MIND**X** is to teach users the fundamental prin
 
 MIND**X** will focus on the following user attributes acquired from various cross-sectional clinical studies regarding meditative app usage: 
 
-**Demographics**
+## Demographics
 -	Ages 18 – 65
 -	All genders (mainly females)
 -	All ethnicities and religions 
@@ -81,7 +99,7 @@ MIND**X** will focus on the following user attributes acquired from various cros
 -	Suffering with physical health issues mainly: high blood pressure, chronic pain, cancer & diabetes 
 -	Tech literate and illiterate 
 
-**Psychographics** 
+## Psychographics
 -	Active interest in meditation 
 -	Novice meditators
 -	Eager to learn new things 
@@ -103,7 +121,7 @@ The website *needs* to enable the **Client** to:
 -	Encourage users to create an online account. 
 -	Have a high level of accessibility. 
 
-**Trade-off Equation: Importance VS Viability/Feasibility**
+## Trade-off Equation: Importance VS Viability/Feasibility
 
 A trade-off analysis was conducted to rank opportunities based on user needs and business objectivise. Projections are scored in terms of their importance versus their viability/feasibility. The scatter graph shows that 4 out of 5 possibilities can and should be implemented. Accessibility is an issue as MIND**X** is currently web based. It is industry standard for organisations to be both web and app-based meaning MIND**X** needs to be as responsive on different devices as possible. 
 
@@ -116,7 +134,7 @@ A trade-off analysis was conducted to rank opportunities based on user needs and
 # Scope
 The initial public offering or phase one of MIND**X** release strategy is to build an intuitive **Minimal Viable Product** in regards to content, design, accessibility and interactivity. A scope was defined through an agile methodology based off of the strategy and broken down into content requirements and functional specifications. 
 
-**Content Requirements:**
+## Content Requirements:
 -	Visual iconography relating to mindfulness, meditation and the wider topics surrounding the subject.
 -	MIND**X** ethos.
 -	MBCT.
@@ -130,7 +148,7 @@ The initial public offering or phase one of MIND**X** release strategy is to bui
 -	Contact information. 
 -	Links to social media account.
 
-**Functional Specifications:**
+## Functional Specifications:
 -	Speedy loading of the website and its content.  
 -	Simple and easy navigation. 
 -	Interactive design. 
@@ -151,18 +169,18 @@ MIND**X**'s highest priority is to teach users body/mind self-improvement techni
 Even though the site is currently a minimal viable product meaning a modest amount of information, three separate pages are needed for future manageability. MINDX has specific content (helpful articles, games & downloadable items) it needs to add to each section. Furthermore this design deliberately follows the teachings of mindfulness ~ living in the present as to make each page unique and the primary focus for the user. 
 
 
-index.html:
+### index.html:
 -	Header – introduces MIND**X** official logo and familiarises the user with the site’s navigational planes, leveraging their prior experience. 
 -	Background Image & Ethos – reinforces the identity of the website and creates and eye-catching landing page.  
 -	Footer – provides social media and contact details so that when the user concludes they can get in contact.  
 
-guided-meditation.html:
+### guided-meditation.html:
 -	Header – keeps the site consistent, offers another call to action & provides easy navigation (e.g., sticky header).  
 -	Intro To MINDX & MBCT – creates brand awareness and begins to address user stories, as well as introduces the key concepts of the brand (USP). 
 -	Mindfulness Meditations 1 – 4 – most important and visited part of the website, lessons build on each other in terms of relevance and difficulty making the next exercise easier. 
 -	Footer – again keeps the site consistent creating familiarity. 
 
-sign-up.html:
+### sign-up.html:
 -	Header – creates uniformity and establishes conventions. 
 -	Call To Action Signup Form – allows users to create an account with MINDX in a bid to develop a core client base.  
 -	Interactive Image – creates interest around the page whilst strengthening the brand. 
@@ -174,7 +192,7 @@ sign-up.html:
 # Skeleton 
 Wireframes were created using Balsamic to determine the basic navigation and interface design of the site. It is important to give form to function meaning the meditative lessons need to speak for themselves. A minimalistic design in terms of navigation and content is employed accompanied by engaging images and key text. Market leading competitors such as Headspace, Calm & Brainfm have adopted similar methodologies so it is important to leverage user’s prior experience. The site will utilise progressive disclosure which is especially important when learning meditation as this is deemed the best way an individual can absorb and turn meditation into a habit. 
 
-**Balsamic Wireframe:**
+### Balsamic Wireframe:
 
 ![Site Wireframe](assets/readme-assets/mindx-wireframe/blank.png)  
 
@@ -208,27 +226,27 @@ Three different fonts are used throughout the website for different connotations
 The images used in MIND**X** are connected to the field on mindfulness and the wider topics surrounding it. The landing page uses a high-fidelity image of a brain meant to immediately capture the user’s attention. Ideally the remaining images would have been the same quality but due to resource constraints icons were used. This said text-shadows were used to tie the image together as to be cohesive. 
 
 ## Features
-**Header**
+### Header
  -	Logo – introduces MIND**X** identity and initiates the user’s discovery phase where they begin to ask questions about the brand.
 -	Navigation Links – facilitates the user’s exploration of the site through three clearly defined sections. 
 -	Call To Action – gives users visual que to sign up to MIND**X** increasing client base and informing them about future releases.  
 
 ![Header](assets/readme-assets/header.png)
 
-**Footer**
+### Footer
 -	Social Media Links – allows users to view MIND**X** as a whole outside of the context of the web app. 
 -	Contact Information – permits users to contact MIND**X** for any questions relating to the exercises or general information. 
 -	Copyright – protects MINDX intellectual property. 
 
 ![Footer](assets/readme-assets/footer.png)
 
-**index.html** 
+### index.html
 -	Background Image – an impactful and eye-catching image welcoming the user to the site and teasing what is ahead.
 -	Ethos – text accompanying the background image, reinforcing what MIND**X** is about and what the user should expect moving forward. 
 
 ![Home Page](assets/readme-assets/home-page.png)
 
-**guided-meditations.html**
+### guided-meditations.html
 •	Guided Meditation Introduction – defines the founding concepts that make MIND**X** unique such as mindfulness, MBCT and guided meditations that work their way up in difficulty and applicability. 
 
 ![Intro MBCT](assets/readme-assets/intro-to-mbct.png)
@@ -237,7 +255,7 @@ The images used in MIND**X** are connected to the field on mindfulness and the w
 
 ![Guided Meditations](assets/readme-assets/exercises.png)
 
-**sign-up.html** 
+### sign-up.html
 -	Signup Form – gives users the chance to sign up to MINDX increasing client base and updating them about future releases.  
 
 ![Sign Up Form](assets/readme-assets/sign-up-form.png)
@@ -246,7 +264,7 @@ The images used in MIND**X** are connected to the field on mindfulness and the w
 
 ![Sign Up Form](assets/readme-assets/responsive-image.png)
 
-## Features To Implement
+### Features To Implement
 -	Useful Articles – links to external peer reviewed papers and official bodies relating to the wider topics surrounding the field. 
 -	Inspirational Quotes – a random inspirational quote generator. 
 -	Colouring Pages – downloadable mindful colour pages used for relaxation and focus. 
@@ -281,7 +299,7 @@ The images used in MIND**X** are connected to the field on mindfulness and the w
 
 ***
 # Search Engine Optimization
-Search Engine Optimisation techniques have been implemented, improving the quality and quantity of website traffic to MINDX from search engines.  
+Search Engine Optimisation techniques have been implemented, improving the quality and quantity of website traffic to MIND**X** from search engines.  
 -	Meta Description and Keyword tags have been used in the head of each page, fostering better relationships between MINX and search engines. 
 -	Crawlable Links. 
 -	Google Search Console and XML Sitemap creating better understating between the site and search engines.
@@ -301,33 +319,33 @@ Search Engine Optimisation techniques have been implemented, improving the quali
 # Testing 
 Each section was tested for responsiveness during and after completion of the site. To do this Google Chrome Developer Tools was used to inspect functionality by examining the site through various predefined device breakpoints as well as overall responsiveness.  Below are examples of what each section was tested for: 
 
-**Header** 
+### Header
 -	Logo redirects to home page. 
 -	Links forward to corresponding pages.
 -	Active links signifier responds to correct pages. 
 -	Call to action sign up button hover effect works. 
 
-**Footer** 
+### Footer 
 -	Social media links redirect in a new tab to corresponding pages as well as aria-labels being read correctly.
 -	Contact email address, when clicked opens the users preferred mailing software. 
 
-**index.html**
+### index.html
 -	Background image loads quickly without loss of quality. 
 -	Lock icon loads instead of and before predefined text alternative (lock_open) as well as screen readers not reading out text alternative by using aria-hidden attribute. 
 
-**guided-meditations.html**
+### guided-meditations.html
 -	Sticky header works and fits the space between each exercise so that the user can access it.
 -	The right aligned paragraph loads to the correct side. 
 -	Aria-hidden attributes for icons work on screen readers as to not confuse or waste impaired user’s time. 
 -	Each video/audio exercise loads and can be accessed immediately.
 -	Each exercise has controls is muted, loops and is responsive. 
 
-**sign-up.html**
+### sign-up.html
 -	Signup form button responds to hover animation. 
 -	Interactive eye responds to hover and aria-hidden operates. 
 
 ## Device Testing 
-To make the site responsive the max-width attribute was used to create popular breakpoints ranging from 1200px – 280px. This said since MINDX implements a garish design in terms of text and image size, creating the site desktop first proved to cause issues in terms of responsiveness. This is because much of the text and icons were programmed at capacity meaning new breakpoints (rather than the pre-defined norm) needed to be added as to function appropriately on different device sizes. 
+To make the site responsive the max-width attribute was used to create popular breakpoints ranging from 1200px – 280px. This said since MIND**X** implements a garish design in terms of text and image size, creating the site desktop first proved to cause issues in terms of responsiveness. This is because much of the text and icons were programmed at capacity meaning new breakpoints (rather than the pre-defined norm) needed to be added as to function appropriately on different device sizes. 
 
 For example, the home page ethos needed a different font size at nearly every new and predefined breakpoint. Furthermore, as the ethos used a display of absolute to position itself, precision was also an issue; if the screen size deviated slightly the text would overlap with other elements. This meant that its position or top and bottom “coordinates” needed to be adjusted accordingly. 
 The guided meditation exercises also needed tweaking since they used a display grid to position themselves. This meant that the traditional method of responsiveness (box-model) wouldn’t predominantly apply and that specific grid templates needed to be used instead. For example, at the 1024 px breakpoint the grid display needed to be changed from a row into a column. 
@@ -351,19 +369,19 @@ Family members and colleagues (through slack) were asked to access the project t
 
 
 ## User Stories Testing 
-As a First Time Visitor: 
-1.	When loading the site, the user is greeted with a background image accompanied by the ethos. When combined both give a succinct view of MINDX and its offerings – brain image and “exercise your mind” alludes to a site that focuses of mind training.  
+### As a First Time Visitor: 
+1.	When loading the site, the user is greeted with a background image accompanied by the ethos. When combined both give a succinct view of MIND**X** and its offerings – brain image and “exercise your mind” alludes to a site that focuses of mind training.  
 2.	The navigation bar is titled in a way that explains its purpose (e.g., Guided Meditations meaning exercises) as well as leveraging the users prior experience with tree structured sites. 
 3.	The footer is located on every page giving the user ample opportunity to determine the sites legitimacy through a “compare and contrast” evaluation. 
 
-As a Returning Visitor: 
+### As a Returning Visitor: 
 1.	Video and voice over lessons use a grid system accompanied by text and images to clearly show the user what each stands for. Furthermore, the exercises utilise Git Large File Storage meaning they load and can be accessed quickly. 
-2.	Again, the site utilises a tree structure meaning each page is the focus to the user. When comparing MINDX offerings to competitors the user has no distractions and can do so comfortably. 
+2.	Again, the site utilises a tree structure meaning each page is the focus to the user. When comparing MIND**X** offerings to competitors the user has no distractions and can do so comfortably. 
 3.	Contact email is embedded in every page and uses the mailto attribute which opens the users preferred mailing software. 
 
-As a Frequent User: 
+### As a Frequent User: 
 1.	The site is highly accessible in terms of device and optimisation meaning the user can access their preferred exercise wherever and whenever they please. 
-2.	The user can sign up to MINDX where they will be informed about any newly added guided meditations, features, newsletters and updates. 
+2.	The user can sign up to MIND**X** where they will be informed about any newly added guided meditations, features, newsletters and updates. 
 
 
 [Back To Top](#mindx)
@@ -374,7 +392,7 @@ As a Frequent User:
 The code was put through online validation and responsiveness tools to determine its competences. The tools used were: 
 
 ## HTML Validator
-**Home Page**
+### Home Page
 
 The home page had a few errors as seen below. The first was a button being nested inside an anchor tag which was recitifed by removing the button tag an creating a button style in CSS. The second issue was a spelling mistake which was also addressed. 
 
@@ -382,7 +400,7 @@ The home page had a few errors as seen below. The first was a button being neste
 
 ![Home Page Corrections](assets/readme-assets/index-corrections.png) 
 
-**Guided Meditation Page** 
+### Guided Meditation Page
 
 The guided meidtations page has errors as seen below. The first was an inncorect type attribute and value pair given to each audio tag. The second and third were spelling mistake and stray closing tags. The last was the iframes having unaplicable attributes aswell as content intended for accesibility between the opening and closing tag not being allowed. 
 
@@ -395,7 +413,7 @@ The guided meidtations page has errors as seen below. The first was an inncorect
 ![Guided Meditation Corrections](assets/readme-assets/guided-corrections.png) 
 
 
-**Sign Up Page** 
+### Sign Up Page
 
 The signup pages errors consisted of stray tags as seen below. 
 
@@ -414,7 +432,7 @@ Goolgle mobile freindly results came back as positive as seen below.
 ![Google Mobile Validator](assets/readme-assets/google-mobile-freindly.png)
 
 ## Lighthouse 
-Lighthouse was used to test and improve the quality of MINDX. From its results accessibility needed addressing as the signup button was deemed to have average contrast. This said through various testing parameters this was deemed to be inaccurate and was left as is. Finally, performance was also an issue as the background image loading time was a second or two longer than desired. This was also left as is since compressing the image further would cause distortion meaning an opportunity cost was made. 
+Lighthouse was used to test and improve the quality of MIND**X**. From its results accessibility needed addressing as the signup button was deemed to have average contrast. This said through various testing parameters this was deemed to be inaccurate and was left as is. Finally, performance was also an issue as the background image loading time was a second or two longer than desired. This was also left as is since compressing the image further would cause distortion meaning an opportunity cost was made. 
 
 ![Lighthouse](assets/readme-assets/lighthouse-v.png)
 
@@ -454,7 +472,7 @@ GitHub repositories exist remotely online. Cloning a repository means you create
 ***
 # Credit 
 
-Information regarding the content of the website and any statistics or claims mentioned are sourced from: 
+**Information regarding the content of the website and any statistics or claims mentioned are sourced from:** 
 -	Wikipedia – mindfulness. 
 -	Wikipedia – mindful-based-cognitive-therapy. 
 -	NHS – cognitive behavioural therapy. 
@@ -463,7 +481,7 @@ Information regarding the content of the website and any statistics or claims me
 -	JMIR Publications – characteristics and usage patterns among 1251 paid subscribers of the calm meditation app: cross sectional survey. 
 -	BMC Research – effectiveness of using a meditation app in reducing anxiety and improving well-being during the COVID-19 pandemic.
 
-Guided meditations were taken from YouTube and converted into audio or imbedded as videos. The source for each exercise is: 
+**Guided meditations were taken from YouTube and converted into audio or imbedded as videos. The source for each exercise is:**
 -	Epworth Health Care (Breathing) 
 -	MyLife (Body Scan)
 -	Mark Williams (Sitting)
@@ -473,10 +491,10 @@ Guided meditations were taken from YouTube and converted into audio or imbedded 
 -	The Honest Guys (Mindfulness) 
 -	Jessica Richburg (Yoga) 
 
-Code for the interactive eye on hover was taken and modified/customised from YouTube: 
+**Code for the interactive eye on hover was taken and modified/customised from YouTube:**
 -	Dark Code
 
-General code help, inspiration and resources: 
+**General code help, inspiration and resources:**
 -	Love Running Walkthrough Project 
 -	W3S
 -	CSS-Tricks
